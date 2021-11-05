@@ -1,0 +1,75 @@
+[Project]
+Current Flow=Multivendor
+VCS=0
+version=1
+Current Config=compile
+
+[Configurations]
+compile=sumador
+
+[Library]
+sumador=.\sumador.lib
+
+[$LibMap$]
+sumador=.
+Active_lib=
+
+[Settings]
+FLOW_TYPE=HDL
+LANGUAGE=VHDL
+SYNTH_TOOL=<none>
+IMPL_TOOL=<none>
+FAMILY=
+FLOWTOOLS=ONLY_IMPL
+
+[IMPLEMENTATION]
+UCF=
+
+[Files]
+/mul2a1de1bit.bde=-1
+/mux2a1de1bit.vhd=-1
+/Alu1bit.bde=-1
+/PruebaFullAdder1bit.awf=-1
+/PruebaMux2a1.awf=-1
+/Alu1bitcode.vhd=-1
+/Alu1BitSimbol.bde=-1
+/Sumador4Bits.bde=-1
+/Sumador4BitsCode.vhd=-1
+/FullAdder1BitCode.vhd=-1
+/FullAdder1BitFub.bde=-1
+/PruebaSumador4Bits.awf=-1
+
+[Files.Data]
+.\src\mul2a1de1bit.bde=Block Diagram
+.\src\mux2a1de1bit.vhd=VHDL Source Code
+.\src\Alu1bit.bde=Block Diagram
+.\src\PruebaFullAdder1bit.awf=Waveform File
+.\src\PruebaMux2a1.awf=Waveform File
+.\src\Alu1bitcode.vhd=VHDL Source Code
+.\src\Alu1BitSimbol.bde=Block Diagram
+.\src\Sumador4Bits.bde=Block Diagram
+.\src\Sumador4BitsCode.vhd=VHDL Source Code
+.\src\FullAdder1BitCode.vhd=VHDL Source Code
+.\src\FullAdder1BitFub.bde=Block Diagram
+.\src\PruebaSumador4Bits.awf=Waveform File
+.\compile\mul2a1de1bit.vhd=VHDL Source Code
+.\compile\Alu1bit.vhd=VHDL Source Code
+.\compile\Alu1BitSimbol.vhd=VHDL Source Code
+.\compile\Sumador4Bits.vhd=VHDL Source Code
+.\compile\FullAdder1BitFub.vhd=VHDL Source Code
+
+
+
+
+
+
+[file_out:/mul2a1de1bit.bde]
+/\compile\mul2a1de1bit.vhd=-1
+[file_out:/Alu1bit.bde]
+/\compile\Alu1bit.vhd=-1
+[file_out:/Alu1BitSimbol.bde]
+/\compile\Alu1BitSimbol.vhd=-1
+[file_out:/Sumador4Bits.bde]
+/\compile\Sumador4Bits.vhd=-1
+[file_out:/FullAdder1BitFub.bde]
+/\compile\FullAdder1BitFub.vhd=-1

@@ -1,0 +1,18 @@
+elbread.dll ver. 1.0.5.325 Thu Nov 04 23:37:51 2021
+
+
+------------------------------------------------
+Entity             | Architecture      | Library
+------------------------------------------------
+sumador4bitscode   | sumador4bitscode  | sumador
+alu1bit            | alu1bit           | sumador
+mux2a1de1bit       | mux2a1de1bit      | sumador
+fulladder1bitcode  | fulladder1bitcode | sumador
+------------------------------------------------
+
+-------------------------
+Package         | Library
+-------------------------
+standard        | std
+std_logic_1164  | ieee
+-------------------------

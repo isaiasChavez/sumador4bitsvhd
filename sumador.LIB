@@ -1,0 +1,154 @@
+[alu1bit]
+A/alu1bit=A/Alu1bit 24|.\src\Alu1bit.bde|10000|1*184444
+B/alu1bit=3*13771
+H/alu1bit=0*157561
+R=./src/Alu1bitcode.vhd|6
+S/alu1bit=S/Alu1bit 40|0|2*31307
+V=0*16788
+
+[alu1bitsimbol]
+A/alu1bitsimbol=A/Alu1BitSimbol 24|.\src\Alu1BitSimbol.bde|10000|1*187388
+H/alu1bitsimbol=0*159715
+R=./compile/Alu1BitSimbol.vhd|25
+V=0*44117
+
+[alu4bits]
+H/alu4bits=0*116520
+R=./src/fulladder4bits.vhd|25
+V=0*3513
+
+[fub1]
+S/fub1=S/Fub1 40|0|2*0
+
+[fub2]
+S/fub2=S/Fub2 40|0|2*639
+
+[fub3]
+S/fub3=S/Fub3 40|0|2*4801
+
+[fub4]
+S/fub4=S/Fub4 40|0|2*5762
+
+[fulladder1bit]
+A/fulladder1bit=A/fulladder1Bit 21|./src/fulladder1Bit.vhd|41|1*100514
+B/fulladder1bit=3*6972
+H/fulladder1bit=0*102133
+R=./src/fulladder1Bit.vhd|29
+S/fulladder1bit=S/fulladder1Bit 40|0|2*12504
+V=0*90202
+
+[fulladder1bitcode]
+A/fulladder1bitcode=A/FullAdder1BitCode 21|./src/FullAdder1BitCode.vhd|42|1*196175
+B/fulladder1bitcode=3*14149
+H/fulladder1bitcode=0*165736
+R=./src/FullAdder1BitCode.vhd|30
+S/fulladder1bitcode=S/FullAdder1BitCode 40|0|2*42074
+V=0*92077
+
+[fulladder1bitfub]
+A/fulladder1bitfub=A/FullAdder1BitFub 24|.\src\FullAdder1BitFub.bde|10000|1*197499
+H/fulladder1bitfub=0*166206
+R=./compile/FullAdder1BitFub.vhd|25
+V=0*115967
+
+[mul2a1de1bit]
+A/mul2a1de1bit=24|.\src\mul2a1de1bit.bde|10000|1*178775
+H/mul2a1de1bit=0*153885
+R=./compile/mul2a1de1bit.vhd|25
+V=0*33558
+
+[mux2a1de1bit]
+A/mux2a1de1bit=21|./src/mux2a1de1bit.vhd|15|1*180367
+B/mux2a1de1bit=3*13076
+H/mux2a1de1bit=0*154983
+R=./src/mux2a1de1bit.vhd|4
+S/mux2a1de1bit=40|0|2*2589
+V=0*11061
+
+[pruebafulladder4bits]
+H/pruebafulladder4bits=0*118822
+R=./compile/Pruebafulladder4bits.vhd|25
+V=0*31552
+
+[sumado4bitsblock]
+H/sumado4bitsblock=0*49865
+R=./compile/Sumado4BitsBlock.vhd|25
+V=0*51301
+
+[sumador4bits]
+A/sumador4bits=A/Sumador4Bits 24|.\src\Sumador4Bits.bde|10000|1*192750
+H/sumador4bits=0*163406
+R=./compile/Sumador4Bits.vhd|25
+V=0*23138
+
+[sumador4bitscode]
+A/sumador4bitscode=A/Sumador4BitsCode 21|.\src\Sumador4BitsCode.vhd|10000|1*139671
+H/sumador4bitscode=0*128776
+R=./src/Sumador4BitsCode.vhd|25
+S/sumador4bitscode=S/Sumador4BitsCode 40|0|2*35314
+V=0*56700
+
+[sumador4bitsfub]
+H/sumador4bitsfub=0*131142
+R=./compile/Sumador4BitsFub.vhd|25
+V=0*79212
+
+[~A]
+./compile/Alu1BitSimbol.vhd~Alu1BitSimbol=60|0*41819*42134
+./compile/Alu1BitSimbol.vhd~Alu1BitSimbolAlu1BitSimbol=60|0*160538*160982
+./compile/Alu1bit.vhd~Alu1bitAlu1bit=60|0*156803*157485
+./compile/FullAdder1BitFub.vhd~FullAdder1BitFub=60|0*113772*114075
+./compile/FullAdder1BitFub.vhd~FullAdder1BitFubFullAdder1BitFub=60|0*166955*167395
+./compile/Pruebafulladder4bits.vhd~Pruebafulladder4bits=60|0*30526*30725
+./compile/Pruebafulladder4bits.vhd~Pruebafulladder4bitsPruebafulladder4bits=60|0*118937*119140
+./compile/Sumado4BitsBlock.vhd~Sumado4BitsBlock=60|0*49414*49778
+./compile/Sumado4BitsBlock.vhd~Sumado4BitsBlockSumado4BitsBlock=60|0*50119*50354
+./compile/Sumador4Bits.vhd~Sumador4Bits=60|0*19557*19905
+./compile/Sumador4Bits.vhd~Sumador4BitsSumador4Bits=60|0*162345*163315
+./compile/Sumador4BitsFub.vhd~Sumador4BitsFub=60|0*77549*77909
+./compile/Sumador4BitsFub.vhd~Sumador4BitsFubSumador4BitsFub=60|0*131247*131420
+./compile/fulladder1Bit.vhd~fulladder1Bit=60|0*85875*86166
+./compile/fulladder1Bit.vhd~fulladder1Bitfulladder1Bit=60|0*87196*87775
+./compile/mul2a1de1bit.vhd~mul2a1de1bit=60|0*31660*31926
+./compile/mul2a1de1bit.vhd~mul2a1de1bitmul2a1de1bit=60|0*154519*154892
+./src/Alu1bitcode.vhd~Alu1bit=60|0*13775*14066
+./src/Alu1bitcode.vhd~Alu1bitAlu1bit=60|0*158957*159639
+./src/FullAdder1BitCode.vhd~FullAdder1BitCode=60|0*91171*91474
+./src/FullAdder1BitCode.vhd~FullAdder1BitCodeFullAdder1BitCode=60|0*165845*166104
+./src/Sumador4BitsCode.vhd~Sumador4BitsCode=60|0*53047*53407
+./src/Sumador4BitsCode.vhd~Sumador4BitsCodeSumador4BitsCode=60|0*130053*131043
+./src/Sumador4BitsCode.vhd~Sumador4BitsSumador4Bits=60|0*164675*165645
+./src/fulladder1Bit.vhd~fulladder1Bit=60|0*88914*89201
+./src/fulladder1Bit.vhd~fulladder1Bitfulladder1Bit=60|0*102234*102469
+./src/fulladder4bits.vhd~Alu4Bits=60|0*0*334
+./src/fulladder4bits.vhd~Alu4BitsAlu4Bits=60|0*117784*118741
+./src/mux2a1de1bit.vhd~mux2a1de1bit=60|0*9849*10111
+./src/mux2a1de1bit.vhd~mux2a1de1bitmux2a1de1bit=60|0*155082*155320
+ModifyID=686
+Version=73
+
+[~MFT]
+0=649|0sumador.mgf|167395|123396
+1=139|1sumador.mgf|197499|104123
+2=48|2sumador.mgf|42074|32967
+3=71|3sumador.mgf|14149|12184
+
+[~U]
+alu1bit=Alu1bit 11|0*16279|0*16494|3
+alu1bitsimbol=Alu1BitSimbol 11|0*43576|0*43809
+alu4bits=Alu4Bits 11|0*2709|0*2943
+fub1=Fub1 11|||3
+fub2=Fub2 11|||3
+fub3=Fub3 11|||3
+fub4=Fub4 11|||3
+fulladder1bit=11|0*89704|0*89916|3
+fulladder1bitcode=FullAdder1BitCode 11|0*91559|0*91783|3
+fulladder1bitfub=FullAdder1BitFub 11|0*115454|0*115675
+mul2a1de1bit=11|0*33103|0*33293
+mux2a1de1bit=11|0*10610|0*10800|3
+pruebafulladder4bits=Pruebafulladder4bits 11|0*31253|0*31354
+sumado4bitsblock=Sumado4BitsBlock 11|0*50457|0*50715
+sumador4bits=Sumador4Bits 11|0*22314|0*22560
+sumador4bitscode=11|0*55856|0*56114|3
+sumador4bitsfub=Sumador4BitsFub 11|0*78372|0*78628
+

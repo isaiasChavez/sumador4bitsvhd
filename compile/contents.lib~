@@ -1,0 +1,27 @@
+686
+~E 1 "./src/fulladder1Bit.vhd" 29 fulladder1bit
+~A 1 "./src/fulladder1Bit.vhd" 41 fulladder1bit
+~E 0 "" 0 fub1
+~E 1 "./compile/Alu1BitSimbol.vhd" 25 alu1bitsimbol
+~A 1 "./compile/Alu1BitSimbol.vhd" 36 alu1bitsimbol
+~E 1 "./src/Alu1bitcode.vhd" 6 alu1bit
+~A 1 "./src/Alu1bitcode.vhd" 30 alu1bit
+~E 1 "./src/fulladder4bits.vhd" 25 alu4bits
+~E 0 "" 0 fub3
+~E 0 "" 0 fub2
+~E 0 "" 0 fub4
+~E 1 "./src/mux2a1de1bit.vhd" 4 mux2a1de1bit
+~A 1 "./src/mux2a1de1bit.vhd" 15 mux2a1de1bit
+~E 1 "./compile/FullAdder1BitFub.vhd" 25 fulladder1bitfub
+~A 1 "./compile/FullAdder1BitFub.vhd" 35 fulladder1bitfub
+~E 1 "./src/FullAdder1BitCode.vhd" 30 fulladder1bitcode
+~A 1 "./src/FullAdder1BitCode.vhd" 42 fulladder1bitcode
+~E 1 "./compile/mul2a1de1bit.vhd" 25 mul2a1de1bit
+~A 1 "./compile/mul2a1de1bit.vhd" 34 mul2a1de1bit
+~E 1 "./compile/Sumado4BitsBlock.vhd" 25 sumado4bitsblock
+~E 1 "./compile/Pruebafulladder4bits.vhd" 25 pruebafulladder4bits
+~E 1 "./src/Sumador4BitsCode.vhd" 25 sumador4bitscode
+~A 1 ".\src\Sumador4BitsCode.vhd" 10000 sumador4bitscode
+~E 1 "./compile/Sumador4Bits.vhd" 25 sumador4bits
+~A 1 "./src/Sumador4BitsCode.vhd" 35 sumador4bits
+~E 1 "./compile/Sumador4BitsFub.vhd" 25 sumador4bitsfub

@@ -1,0 +1,9 @@
+.\src\mul2a1de1bit.bde
+.\src\mux2a1de1bit.vhd
+.\src\Alu1bit.bde
+.\src\Alu1bitcode.vhd
+.\src\Alu1BitSimbol.bde
+.\src\Sumador4Bits.bde
+.\src\Sumador4BitsCode.vhd
+.\src\FullAdder1BitCode.vhd
+.\src\FullAdder1BitFub.bde
