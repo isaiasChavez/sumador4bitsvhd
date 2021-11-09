@@ -25,6 +25,16 @@ FLOWTOOLS=ONLY_IMPL
 [IMPLEMENTATION]
 UCF=
 
+[HierarchyViewer]
+SortInfo=u
+HierarchyInformation=multiplicadormantiza|multiplicadormantiza|0
+ShowHide=ShowTopLevel
+Selected=
+
+[Groups]
+mult=1
+Multiplicador=1
+
 [Files]
 /mul2a1de1bit.bde=-1
 /mux2a1de1bit.vhd=-1
@@ -38,6 +48,19 @@ UCF=
 /FullAdder1BitCode.vhd=-1
 /FullAdder1BitFub.bde=-1
 /PruebaSumador4Bits.awf=-1
+/Overflow.vhd=-1
+/Overflow.bde=-1
+/Aux1.bde=-1
+/MultiplicadorMatizaDividido.vhd=-1
+/Mux2A1-Multiplicador.vhd=-1
+/SumadorExponentes.vhd=-1
+/PruebaMux2A1-multiplicador.awf=-1
+/Unir32Bits.vhd=-1
+/MultiplicadorDePuntoFlotante.bde=-1
+mult/producto8bits.vhd=-1
+mult/Waveform Editor 1.awf=-1
+Multiplicador/MultiplicadorMantiza.vhd=-1
+Multiplicador/Divide32bits.vhd=-1
 
 [Files.Data]
 .\src\mul2a1de1bit.bde=Block Diagram
@@ -52,11 +75,29 @@ UCF=
 .\src\FullAdder1BitCode.vhd=VHDL Source Code
 .\src\FullAdder1BitFub.bde=Block Diagram
 .\src\PruebaSumador4Bits.awf=Waveform File
+.\src\Overflow.vhd=VHDL Source Code
+.\src\Overflow.bde=Block Diagram
+.\src\Aux1.bde=Block Diagram
+.\src\MultiplicadorMatizaDividido.vhd=VHDL Source Code
+.\src\Mux2A1-Multiplicador.vhd=VHDL Source Code
+.\src\SumadorExponentes.vhd=VHDL Source Code
+.\src\PruebaMux2A1-multiplicador.awf=Waveform File
+.\src\Unir32Bits.vhd=VHDL Source Code
+.\src\MultiplicadorDePuntoFlotante.bde=Block Diagram
+.\src\mult\producto8bits.vhd=VHDL Source Code
+.\src\mult\Waveform Editor 1.awf=Waveform File
+.\src\Multiplicador\MultiplicadorMantiza.vhd=VHDL Source Code
+.\src\Multiplicador\Divide32bits.vhd=VHDL Source Code
 .\compile\mul2a1de1bit.vhd=VHDL Source Code
 .\compile\Alu1bit.vhd=VHDL Source Code
 .\compile\Alu1BitSimbol.vhd=VHDL Source Code
 .\compile\Sumador4Bits.vhd=VHDL Source Code
 .\compile\FullAdder1BitFub.vhd=VHDL Source Code
+.\compile\Overflow.vhd=VHDL Source Code
+.\compile\Aux1.vhd=VHDL Source Code
+.\compile\MultiplicadorDePuntoFlotante.vhd=VHDL Source Code
+
+
 
 
 
@@ -73,3 +114,9 @@ UCF=
 /\compile\Sumador4Bits.vhd=-1
 [file_out:/FullAdder1BitFub.bde]
 /\compile\FullAdder1BitFub.vhd=-1
+[file_out:/Overflow.bde]
+/\compile\Overflow.vhd=-1
+[file_out:/Aux1.bde]
+/\compile\Aux1.vhd=-1
+[file_out:/MultiplicadorDePuntoFlotante.bde]
+/\compile\MultiplicadorDePuntoFlotante.vhd=-1

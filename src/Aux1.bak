@@ -1,0 +1,83 @@
+SCHM0102
+HEADER
+{
+  FREEID 7
+  VARIABLES
+  {
+    #ARCHITECTURE="Aux1"
+    #ENTITY="Aux1"
+    #LANGUAGE="VHDL"
+    AUTHOR="isaiaschavez.co@gmail.com"
+    COMPANY="utm"
+    CREATIONDATE="11/8/2021"
+    TITLE="Aux1"
+  }
+}
+PAGE ""
+{
+  PAGEHEADER 
+  {
+    PAGESIZE (6000,1700)
+  }
+  BODY
+  {
+    INSTANCE 1,0,0
+    {
+      VARIABLES
+      {
+        #COMPONENT="Input"
+        #LIBRARY="#terminals"
+        #REFERENCE="z"
+        #SYMBOL="Input"
+      }
+      COORD (440,460)
+    }
+    TEXT 2,0,0
+    {
+      TEXT "$#REFERENCE"
+      RECT (385,444,385,444)
+      MARGINS (1,1)
+      COLOR (0,0,192)
+      ALIGN 2
+      PARENT 1
+    }
+    INSTANCE 3,0,0
+    {
+      VARIABLES
+      {
+        #COMPONENT="Output"
+        #LIBRARY="#terminals"
+        #REFERENCE="z1"
+        #SYMBOL="Output"
+      }
+      COORD (5580,460)
+    }
+    TEXT 4,0,0
+    {
+      TEXT "$#REFERENCE"
+      RECT (5635,444,5635,444)
+      MARGINS (1,1)
+      COLOR (0,0,192)
+      PARENT 3
+    }
+    INSTANCE 5,0,0
+    {
+      VARIABLES
+      {
+        #COMPONENT="Output"
+        #LIBRARY="#terminals"
+        #REFERENCE="z2"
+        #SYMBOL="Output"
+      }
+      COORD (5580,520)
+    }
+    TEXT 6,0,0
+    {
+      TEXT "$#REFERENCE"
+      RECT (5635,504,5635,504)
+      MARGINS (1,1)
+      COLOR (0,0,192)
+      PARENT 5
+    }
+  }
+}

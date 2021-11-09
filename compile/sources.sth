@@ -1,7 +1,11 @@
 [Files List]
 C:\Program Files (x86)\Aldec\Active-HDL 6.2\VLIB\STD/src/standard.vhd=S
 C:\Program Files (x86)\Aldec\Active-HDL 6.2\VLIB\IEEE/src/stdlogic.vhd=S
-c:\My_Designs\sumador\sumador/src/FullAdder1BitCode.vhd=S
-c:\My_Designs\sumador\sumador/src/mux2a1de1bit.vhd=S
-c:\My_Designs\sumador\sumador/src/Alu1bitcode.vhd=S
-c:\My_Designs\sumador\sumador/src/Sumador4BitsCode.vhd=S
+C:\Program Files (x86)\Aldec\Active-HDL 6.2\VLIB\IEEE/src/arith.vhd=S
+C:\Program Files (x86)\Aldec\Active-HDL 6.2\VLIB\IEEE/src/unsigned.vhd=S
+c:\My_Designs\sumador\sumador/src/Multiplicador/Divide32bits.vhd=S
+c:\My_Designs\sumador\sumador/src/Unir32Bits.vhd=S
+c:\My_Designs\sumador\sumador/src/SumadorExponentes.vhd=S
+c:\My_Designs\sumador\sumador/src/Mux2A1-Multiplicador.vhd=S
+c:\My_Designs\sumador\sumador/src/MultiplicadorMatizaDividido.vhd=S
+c:\My_Designs\sumador\sumador/compile/MultiplicadorDePuntoFlotante.vhd=S

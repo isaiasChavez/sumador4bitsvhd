@@ -1,14 +1,22 @@
+[\Mux2A1-Multiplicador\]
+A/\Mux2A1-Multiplicador\=21|./src/Mux2A1-Multiplicador.vhd|41|1*697807
+B/\Mux2A1-Multiplicador\=3*96190
+H/\Mux2A1-Multiplicador\=0*538518
+R=./src/Mux2A1-Multiplicador.vhd|30
+S/\Mux2A1-Multiplicador\=40|0|2*75944
+V=0*460619
+
 [alu1bit]
-A/alu1bit=A/Alu1bit 24|.\src\Alu1bit.bde|10000|1*184444
-B/alu1bit=3*13771
-H/alu1bit=0*157561
+A/alu1bit=A/Alu1bit 24|.\src\Alu1bit.bde|10000|1*674790
+B/alu1bit=3*92171
+H/alu1bit=0*522393
 R=./src/Alu1bitcode.vhd|6
 S/alu1bit=S/Alu1bit 40|0|2*31307
 V=0*16788
 
 [alu1bitsimbol]
-A/alu1bitsimbol=A/Alu1BitSimbol 24|.\src\Alu1BitSimbol.bde|10000|1*187388
-H/alu1bitsimbol=0*159715
+A/alu1bitsimbol=A/Alu1BitSimbol 24|.\src\Alu1BitSimbol.bde|10000|1*677734
+H/alu1bitsimbol=0*524547
 R=./compile/Alu1BitSimbol.vhd|25
 V=0*44117
 
@@ -16,6 +24,22 @@ V=0*44117
 H/alu4bits=0*116520
 R=./src/fulladder4bits.vhd|25
 V=0*3513
+
+[aux1]
+A/aux1=A/Aux1 24|.\src\Aux1.bde|10000|1*693136
+B/aux1=3*93764
+H/aux1=0*537204
+R=./compile/Aux1.vhd|25
+S/aux1=S/Aux1 40|0|2*59653
+V=0*221889
+
+[divide32bits]
+A/divide32bits=A/Divide32bits 21|./src/Multiplicador/Divide32bits.vhd|41|1*718423
+B/divide32bits=3*101961
+H/divide32bits=0*557295
+R=./src/Multiplicador/Divide32bits.vhd|30
+S/divide32bits=40|0|2*50223
+V=0*206909
 
 [fub1]
 S/fub1=S/Fub1 40|0|2*0
@@ -29,6 +53,9 @@ S/fub3=S/Fub3 40|0|2*4801
 [fub4]
 S/fub4=S/Fub4 40|0|2*5762
 
+[fub5]
+S/fub5=S/Fub5 40|0|2*52567
+
 [fulladder1bit]
 A/fulladder1bit=A/fulladder1Bit 21|./src/fulladder1Bit.vhd|41|1*100514
 B/fulladder1bit=3*6972
@@ -38,32 +65,69 @@ S/fulladder1bit=S/fulladder1Bit 40|0|2*12504
 V=0*90202
 
 [fulladder1bitcode]
-A/fulladder1bitcode=A/FullAdder1BitCode 21|./src/FullAdder1BitCode.vhd|42|1*196175
-B/fulladder1bitcode=3*14149
-H/fulladder1bitcode=0*165736
+A/fulladder1bitcode=A/FullAdder1BitCode 21|./src/FullAdder1BitCode.vhd|42|1*686521
+B/fulladder1bitcode=3*92549
+H/fulladder1bitcode=0*530568
 R=./src/FullAdder1BitCode.vhd|30
 S/fulladder1bitcode=S/FullAdder1BitCode 40|0|2*42074
 V=0*92077
 
 [fulladder1bitfub]
-A/fulladder1bitfub=A/FullAdder1BitFub 24|.\src\FullAdder1BitFub.bde|10000|1*197499
-H/fulladder1bitfub=0*166206
+A/fulladder1bitfub=A/FullAdder1BitFub 24|.\src\FullAdder1BitFub.bde|10000|1*687845
+H/fulladder1bitfub=0*531038
 R=./compile/FullAdder1BitFub.vhd|25
 V=0*115967
 
 [mul2a1de1bit]
-A/mul2a1de1bit=24|.\src\mul2a1de1bit.bde|10000|1*178775
-H/mul2a1de1bit=0*153885
+A/mul2a1de1bit=24|.\src\mul2a1de1bit.bde|10000|1*669121
+H/mul2a1de1bit=0*518717
 R=./compile/mul2a1de1bit.vhd|25
 V=0*33558
 
+[multiplicadordepuntoflotante]
+A/multiplicadordepuntoflotante=A/MultiplicadorDePuntoFlotante 24|.\src\MultiplicadorDePuntoFlotante.bde|10000|1*703556
+B/multiplicadordepuntoflotante=3*98865
+H/multiplicadordepuntoflotante=0*540055
+R=./compile/MultiplicadorDePuntoFlotante.vhd|25
+V=0*514541
+
+[multiplicadormantiza]
+A/multiplicadormantiza=A/MultiplicadorMantiza 21|./src/Multiplicador/MultiplicadorMantiza.vhd|43|1*715897
+B/multiplicadormantiza=3*100825
+H/multiplicadormantiza=0*556544
+R=./src/MultiplicadorMantiza.vhd|33
+V=0*328063
+
+[multiplicadormatizadividido]
+A/multiplicadormatizadividido=A/MultiplicadorMatizaDividido 21|./src/MultiplicadorMatizaDividido.vhd|43|1*694466
+B/multiplicadormatizadividido=3*94687
+H/multiplicadormatizadividido=0*537604
+R=./src/MultiplicadorMatizaDividido.vhd|31
+S/multiplicadormatizadividido=40|0|2*67808
+V=0*455718
+
 [mux2a1de1bit]
-A/mux2a1de1bit=21|./src/mux2a1de1bit.vhd|15|1*180367
-B/mux2a1de1bit=3*13076
-H/mux2a1de1bit=0*154983
+A/mux2a1de1bit=21|./src/mux2a1de1bit.vhd|15|1*670713
+B/mux2a1de1bit=3*91476
+H/mux2a1de1bit=0*519815
 R=./src/mux2a1de1bit.vhd|4
 S/mux2a1de1bit=40|0|2*2589
 V=0*11061
+
+[overflow]
+A/overflow=A/Overflow 24|.\src\Overflow.bde|10000|1*690966
+B/overflow=3*93445
+H/overflow=0*534602
+R=./compile/Overflow.vhd|25
+S/overflow=S/OverFlow 40|0|2*54834
+V=0*536667
+
+[producto8bits]
+A/producto8bits=21|./src/mult/producto8bits.vhd|41|1*713056
+B/producto8bits=3*99300
+H/producto8bits=0*555208
+R=./src/mult/producto8bits.vhd|29
+V=0*183679
 
 [pruebafulladder4bits]
 H/pruebafulladder4bits=0*118822
@@ -76,8 +140,8 @@ R=./compile/Sumado4BitsBlock.vhd|25
 V=0*51301
 
 [sumador4bits]
-A/sumador4bits=A/Sumador4Bits 24|.\src\Sumador4Bits.bde|10000|1*192750
-H/sumador4bits=0*163406
+A/sumador4bits=A/Sumador4Bits 24|.\src\Sumador4Bits.bde|10000|1*683096
+H/sumador4bits=0*528238
 R=./compile/Sumador4Bits.vhd|25
 V=0*23138
 
@@ -93,62 +157,125 @@ H/sumador4bitsfub=0*131142
 R=./compile/Sumador4BitsFub.vhd|25
 V=0*79212
 
+[sumador8b]
+A/sumador8b=21|./src/mult/sumador8bits.vhd|39|1*222944
+B/sumador8b=3*18539
+H/sumador8b=0*185453
+R=./src/mult/sumador8bits.vhd|29
+V=0*186814
+
+[sumadorexponentes]
+A/sumadorexponentes=A/SumadorExponentes 21|./src/SumadorExponentes.vhd|42|1*699468
+B/sumadorexponentes=3*96895
+H/sumadorexponentes=0*539044
+R=./src/SumadorExponentes.vhd|31
+S/sumadorexponentes=40|0|2*83641
+V=0*469030
+
+[unir32bits]
+A/unir32bits=A/Unir32Bits 21|./src/Unir32Bits.vhd|41|1*701623
+B/unir32bits=3*98172
+H/unir32bits=0*539607
+R=./src/Unir32Bits.vhd|30
+S/unir32bits=S/Unir32Bits 40|0|2*91390
+V=0*474223
+
 [~A]
 ./compile/Alu1BitSimbol.vhd~Alu1BitSimbol=60|0*41819*42134
-./compile/Alu1BitSimbol.vhd~Alu1BitSimbolAlu1BitSimbol=60|0*160538*160982
-./compile/Alu1bit.vhd~Alu1bitAlu1bit=60|0*156803*157485
+./compile/Alu1BitSimbol.vhd~Alu1BitSimbolAlu1BitSimbol=60|0*525370*525814
+./compile/Alu1bit.vhd~Alu1bitAlu1bit=60|0*521635*522317
+./compile/Aux1.vhd~Aux1=60|0*220852*221059
+./compile/Aux1.vhd~Aux1Aux1=60|0*537354*537537
+./compile/Divide32Bits.vhd~Divide32BitsDivide32Bits=60|0*212799*214766
 ./compile/FullAdder1BitFub.vhd~FullAdder1BitFub=60|0*113772*114075
-./compile/FullAdder1BitFub.vhd~FullAdder1BitFubFullAdder1BitFub=60|0*166955*167395
+./compile/FullAdder1BitFub.vhd~FullAdder1BitFubFullAdder1BitFub=60|0*531787*532227
+./compile/MultiplicadorDePuntoFlotante.vhd~MultiplicadorDePuntoFlotante=60|0*498100*498461
+./compile/MultiplicadorDePuntoFlotante.vhd~MultiplicadorDePuntoFlotanteMultiplicadorDePuntoFlotante=60|0*552613*555069
+./compile/Overflow.vhd~Overflow=60|0*534257*534531
+./compile/Overflow.vhd~OverflowOverflow=60|0*535532*536110
 ./compile/Pruebafulladder4bits.vhd~Pruebafulladder4bits=60|0*30526*30725
 ./compile/Pruebafulladder4bits.vhd~Pruebafulladder4bitsPruebafulladder4bits=60|0*118937*119140
 ./compile/Sumado4BitsBlock.vhd~Sumado4BitsBlock=60|0*49414*49778
 ./compile/Sumado4BitsBlock.vhd~Sumado4BitsBlockSumado4BitsBlock=60|0*50119*50354
 ./compile/Sumador4Bits.vhd~Sumador4Bits=60|0*19557*19905
-./compile/Sumador4Bits.vhd~Sumador4BitsSumador4Bits=60|0*162345*163315
+./compile/Sumador4Bits.vhd~Sumador4BitsSumador4Bits=60|0*527177*528147
 ./compile/Sumador4BitsFub.vhd~Sumador4BitsFub=60|0*77549*77909
 ./compile/Sumador4BitsFub.vhd~Sumador4BitsFubSumador4BitsFub=60|0*131247*131420
 ./compile/fulladder1Bit.vhd~fulladder1Bit=60|0*85875*86166
 ./compile/fulladder1Bit.vhd~fulladder1Bitfulladder1Bit=60|0*87196*87775
 ./compile/mul2a1de1bit.vhd~mul2a1de1bit=60|0*31660*31926
-./compile/mul2a1de1bit.vhd~mul2a1de1bitmul2a1de1bit=60|0*154519*154892
+./compile/mul2a1de1bit.vhd~mul2a1de1bitmul2a1de1bit=60|0*519351*519724
 ./src/Alu1bitcode.vhd~Alu1bit=60|0*13775*14066
-./src/Alu1bitcode.vhd~Alu1bitAlu1bit=60|0*158957*159639
+./src/Alu1bitcode.vhd~Alu1bitAlu1bit=60|0*523789*524471
+./src/Divide32bits.vhd~Divide32bits=60|0*188459*188777
+./src/Divide32bits.vhd~Divide32bitsDivide32bits=60|0*188951*189102
 ./src/FullAdder1BitCode.vhd~FullAdder1BitCode=60|0*91171*91474
-./src/FullAdder1BitCode.vhd~FullAdder1BitCodeFullAdder1BitCode=60|0*165845*166104
+./src/FullAdder1BitCode.vhd~FullAdder1BitCodeFullAdder1BitCode=60|0*530677*530936
+./src/Multiplicador/Divide32bits.vhd~Divide32bits=60|0*205650*206002
+./src/Multiplicador/Divide32bits.vhd~Divide32bitsDivide32bits=60|0*557394*557688
+./src/Multiplicador/MultiplicadorMantiza.vhd~MultiplicadorMantizaMultiplicadorMantiza=60|0*556659*557170
+./src/MultiplicadorMantiza.vhd~MultiplicadorMantiza=60|0*325250*325642
+./src/MultiplicadorMantiza.vhd~MultiplicadorMantizaMultiplicadorMantiza=60|0*342405*342902
+./src/MultiplicadorMatizaDividido.vhd~MultiplicadorMatizaDividido=60|0*454064*454550
+./src/MultiplicadorMatizaDividido.vhd~MultiplicadorMatizaDivididoMultiplicadorMatizaDividido=60|0*537733*538386
+./src/Mux2A1-Multiplicador.vhd~\Mux2A1-Multiplicador\=60|0*458805*459163
+./src/Mux2A1-Multiplicador.vhd~\Mux2A1-Multiplicador\\Mux2A1-Multiplicador\=60|0*538637*538929
+./src/Overflow.vhd~OverFlow=60|0*532330*532600
+./src/Overflow.vhd~OverFlowOverFlow=60|0*532758*533171
 ./src/Sumador4BitsCode.vhd~Sumador4BitsCode=60|0*53047*53407
 ./src/Sumador4BitsCode.vhd~Sumador4BitsCodeSumador4BitsCode=60|0*130053*131043
-./src/Sumador4BitsCode.vhd~Sumador4BitsSumador4Bits=60|0*164675*165645
+./src/Sumador4BitsCode.vhd~Sumador4BitsSumador4Bits=60|0*529507*530477
+./src/SumadorExponentes.vhd~SumadorExponentes=60|0*467125*467530
+./src/SumadorExponentes.vhd~SumadorExponentesSumadorExponentes=60|0*539153*539505
+./src/Unir32Bits.vhd~Unir32Bits=60|0*473034*473358
+./src/Unir32Bits.vhd~Unir32BitsUnir32Bits=60|0*539702*539974
 ./src/fulladder1Bit.vhd~fulladder1Bit=60|0*88914*89201
 ./src/fulladder1Bit.vhd~fulladder1Bitfulladder1Bit=60|0*102234*102469
 ./src/fulladder4bits.vhd~Alu4Bits=60|0*0*334
 ./src/fulladder4bits.vhd~Alu4BitsAlu4Bits=60|0*117784*118741
+./src/mult/producto8bits.vhd~producto8bits=60|0*181111*181493
+./src/mult/producto8bits.vhd~producto8bitsproducto8bits=60|0*555869*556449
+./src/mult/sumador8bits.vhd~sumador8b=60|0*185022*185376
+./src/mult/sumador8bits.vhd~sumador8bsumador8b=60|0*185546*185935
 ./src/mux2a1de1bit.vhd~mux2a1de1bit=60|0*9849*10111
-./src/mux2a1de1bit.vhd~mux2a1de1bitmux2a1de1bit=60|0*155082*155320
-ModifyID=686
+./src/mux2a1de1bit.vhd~mux2a1de1bitmux2a1de1bit=60|0*519914*520152
+ModifyID=2308
 Version=73
 
 [~MFT]
-0=649|0sumador.mgf|167395|123396
-1=139|1sumador.mgf|197499|104123
-2=48|2sumador.mgf|42074|32967
-3=71|3sumador.mgf|14149|12184
+0=2319|0sumador.mgf|557688|457746
+1=511|1sumador.mgf|718423|417591
+2=94|2sumador.mgf|91390|66941
+3=404|3sumador.mgf|101961|89111
 
 [~U]
+\Mux2A1-Multiplicador\=11|0*459782|0*460039|3
 alu1bit=Alu1bit 11|0*16279|0*16494|3
 alu1bitsimbol=Alu1BitSimbol 11|0*43576|0*43809
 alu4bits=Alu4Bits 11|0*2709|0*2943
+aux1=Aux1 11|0*221522|0*221665|3
+divide32bits=11|0*206091|0*206337|3
 fub1=Fub1 11|||3
 fub2=Fub2 11|||3
 fub3=Fub3 11|||3
 fub4=Fub4 11|||3
+fub5=Fub5 11|||3
 fulladder1bit=11|0*89704|0*89916|3
 fulladder1bitcode=FullAdder1BitCode 11|0*91559|0*91783|3
 fulladder1bitfub=FullAdder1BitFub 11|0*115454|0*115675
 mul2a1de1bit=11|0*33103|0*33293
+multiplicadordepuntoflotante=MultiplicadorDePuntoFlotante 11|0*513725|0*513976
+multiplicadormantiza=11|0*327240|0*327467
+multiplicadormatizadividido=11|0*454655|0*454958|3
 mux2a1de1bit=11|0*10610|0*10800|3
+overflow=11|0*536189|0*536388|3
+producto8bits=11|0*182911|0*183162
 pruebafulladder4bits=Pruebafulladder4bits 11|0*31253|0*31354
 sumado4bitsblock=Sumado4BitsBlock 11|0*50457|0*50715
 sumador4bits=Sumador4Bits 11|0*22314|0*22560
 sumador4bitscode=11|0*55856|0*56114|3
 sumador4bitsfub=Sumador4BitsFub 11|0*78372|0*78628
+sumador8b=11|0*186021|0*186239
+sumadorexponentes=11|0*468182|0*468419|3
+unir32bits=Unir32Bits 11|0*473429|0*473661|3
 

@@ -1,0 +1,389 @@
+SCHM0102
+
+HEADER
+{
+ FREEID 54
+ VARIABLES
+ {
+  #ARCHITECTURE="Aux1"
+  #BLOCKTABLE_FILE="#table.bde"
+  #BLOCKTABLE_INCLUDED="1"
+  #ENTITY="Aux1"
+  #LANGUAGE="VHDL"
+  AUTHOR="isaiaschavez.co@gmail.com"
+  COMPANY="utm"
+  CREATIONDATE="11/8/2021"
+  TITLE="Aux1"
+ }
+}
+
+PAGE ""
+{
+ PAGEHEADER
+ {
+  PAGESIZE (6000,1700)
+  MARGINS (200,200,200,200)
+  RECT (0,0,0,0)
+ }
+ 
+ BODY
+ {
+  INSTANCE  1, 0, 0
+  {
+   VARIABLES
+   {
+    #COMPONENT="Input"
+    #LIBRARY="#terminals"
+    #REFERENCE="z"
+    #SYMBOL="Input"
+   }
+   COORD (440,460)
+   VERTEXES ( (2,11) )
+  }
+  TEXT  2, 0, 0
+  {
+   TEXT "$#REFERENCE"
+   RECT (369,444,385,479)
+   ALIGN 2
+   MARGINS (1,1)
+   COLOR (0,0,192)
+   PARENT 1
+  }
+  INSTANCE  7, 0, 0
+  {
+   VARIABLES
+   {
+    #COMPONENT="Output"
+    #LIBRARY="#terminals"
+    #REFERENCE="z1"
+    #SYMBOL="Output"
+   }
+   COORD (720,440)
+   VERTEXES ( (2,12) )
+  }
+  TEXT  8, 0, 0
+  {
+   TEXT "$#REFERENCE"
+   RECT (775,424,807,459)
+   MARGINS (1,1)
+   COLOR (0,0,192)
+   PARENT 7
+  }
+  INSTANCE  9, 0, 0
+  {
+   VARIABLES
+   {
+    #COMPONENT="Output"
+    #LIBRARY="#terminals"
+    #REFERENCE="z2"
+    #SYMBOL="Output"
+   }
+   COORD (720,500)
+   VERTEXES ( (2,17) )
+  }
+  TEXT  10, 0, 0
+  {
+   TEXT "$#REFERENCE"
+   RECT (775,484,807,519)
+   MARGINS (1,1)
+   COLOR (0,0,192)
+   PARENT 9
+  }
+  VTX  11, 0, 0
+  {
+   COORD (440,460)
+  }
+  VTX  12, 0, 0
+  {
+   COORD (720,440)
+  }
+  VTX  14, 0, 0
+  {
+   COORD (720,460)
+  }
+  WIRE  16, 0, 0
+  {
+   NET 25
+   VTX 14, 12
+  }
+  VTX  17, 0, 0
+  {
+   COORD (720,500)
+  }
+  VTX  18, 0, 0
+  {
+   COORD (660,460)
+  }
+  WIRE  19, 0, 0
+  {
+   NET 25
+   VTX 11, 18
+  }
+  WIRE  20, 0, 0
+  {
+   NET 25
+   VTX 18, 14
+  }
+  VTX  22, 0, 0
+  {
+   COORD (660,500)
+  }
+  WIRE  23, 0, 0
+  {
+   NET 25
+   VTX 17, 22
+  }
+  WIRE  24, 0, 0
+  {
+   NET 25
+   VTX 22, 18
+  }
+  NET WIRE  25, 0, 0
+ }
+ 
+}
+
+PAGE ""
+{
+ PAGEHEADER
+ {
+  PAGESIZE (6000,1700)
+  MARGINS (200,200,200,200)
+  RECT (0,0,0,0)
+  VARIABLES
+  {
+   #BLOCKTABLE_PAGE="1"
+   #BLOCKTABLE_TEMPL="1"
+   #BLOCKTABLE_VISIBLE="0"
+   #MODIFIED="1069943376"
+  }
+ }
+ 
+ BODY
+ {
+  TEXT  26, 0, 0
+  {
+   PAGEALIGN 10
+   OUTLINE 5,1, (0,0,0)
+   TEXT "Created:"
+   RECT (4940,1386,5057,1439)
+   ALIGN 4
+   MARGINS (1,10)
+   COLOR (0,0,0)
+   FONT (12,0,0,700,0,0,0,"Arial")
+  }
+  TEXT  27, 0, 0
+  {
+   PAGEALIGN 10
+   TEXT "$CREATIONDATE"
+   RECT (5110,1380,5780,1440)
+   ALIGN 4
+   MARGINS (1,1)
+   COLOR (0,0,0)
+   FONT (12,0,0,700,0,0,0,"Arial")
+   UPDATE 0
+  }
+  TEXT  28, 0, 0
+  {
+   PAGEALIGN 10
+   TEXT "Title:"
+   RECT (4941,1444,5012,1497)
+   ALIGN 4
+   MARGINS (1,10)
+   COLOR (0,0,0)
+   FONT (12,0,0,700,0,0,0,"Arial")
+  }
+  TEXT  29, 0, 0
+  {
+   PAGEALIGN 10
+   OUTLINE 5,1, (0,0,0)
+   TEXT "$TITLE"
+   RECT (5110,1440,5780,1500)
+   ALIGN 4
+   MARGINS (1,1)
+   COLOR (0,0,0)
+   FONT (12,0,0,700,0,0,0,"Arial")
+   UPDATE 0
+  }
+  LINE  30, 0, 0
+  {
+   PAGEALIGN 10
+   OUTLINE 0,1, (128,128,128)
+   POINTS ( (4930,1380), (5800,1380) )
+   FILL (1,(0,0,0),0)
+  }
+  LINE  31, 0, 0
+  {
+   PAGEALIGN 10
+   OUTLINE 0,1, (128,128,128)
+   POINTS ( (4930,1440), (5800,1440) )
+   FILL (1,(0,0,0),0)
+  }
+  LINE  32, 0, 0
+  {
+   PAGEALIGN 10
+   OUTLINE 0,1, (128,128,128)
+   POINTS ( (5100,1380), (5100,1500) )
+  }
+  LINE  33, 0, 0
+  {
+   PAGEALIGN 10
+   OUTLINE 0,1, (128,128,128)
+   POINTS ( (5800,1500), (5800,1240), (4930,1240), (4930,1500), (5800,1500) )
+   FILL (1,(0,0,0),0)
+  }
+  TEXT  34, 0, 0
+  {
+   PAGEALIGN 10
+   TEXT 
+"(C)ALDEC. Inc\n"+
+"2260 Corporate Circle\n"+
+"Henderson, NV 89074"
+   RECT (4940,1260,5235,1361)
+   MARGINS (1,1)
+   COLOR (0,0,0)
+   FONT (12,0,0,700,0,0,0,"Arial")
+   MULTILINE
+  }
+  LINE  35, 0, 0
+  {
+   PAGEALIGN 10
+   OUTLINE 0,1, (128,128,128)
+   POINTS ( (5240,1240), (5240,1380) )
+  }
+  LINE  36, 0, 0
+  {
+   PAGEALIGN 10
+   OUTLINE 0,4, (0,4,255)
+   POINTS ( (5416,1304), (5482,1304) )
+   FILL (0,(0,4,255),0)
+  }
+  LINE  37, 0, 0
+  {
+   PAGEALIGN 10
+   OUTLINE 0,1, (0,4,255)
+   POINTS ( (5385,1300), (5385,1300) )
+   FILL (0,(0,4,255),0)
+  }
+  LINE  38, 0, 0
+  {
+   PAGEALIGN 10
+   OUTLINE 0,3, (0,4,255)
+   POINTS ( (5434,1304), (5450,1264) )
+   FILL (0,(0,4,255),0)
+  }
+  TEXT  39, -4, 0
+  {
+   PAGEALIGN 10
+   OUTLINE 5,0, (49,101,255)
+   TEXT "ALDEC"
+   RECT (5463,1246,5761,1348)
+   MARGINS (1,1)
+   COLOR (0,4,255)
+   FONT (36,0,0,700,0,0,0,"Arial")
+  }
+  LINE  40, 0, 0
+  {
+   PAGEALIGN 10
+   OUTLINE 0,3, (0,4,255)
+   POINTS ( (5376,1264), (5351,1327) )
+   FILL (0,(0,4,255),0)
+  }
+  BEZIER  41, 0, 0
+  {
+   PAGEALIGN 10
+   OUTLINE 0,3, (0,4,255)
+   FILL (0,(0,4,255),0)
+   ORIGINS ( (5383,1290), (5416,1304), (5383,1315), (5383,1290) )
+   CONTROLS (( (5407,1290), (5415,1289)),( (5413,1315), (5410,1315)),( (5383,1307), (5383,1302)) )
+  }
+  LINE  42, 0, 0
+  {
+   PAGEALIGN 10
+   OUTLINE 0,4, (0,4,255)
+   POINTS ( (5295,1311), (5383,1311) )
+   FILL (0,(0,4,255),0)
+  }
+  LINE  43, 0, 0
+  {
+   PAGEALIGN 10
+   OUTLINE 0,4, (0,4,255)
+   POINTS ( (5302,1294), (5383,1294) )
+   FILL (0,(0,4,255),0)
+  }
+  LINE  44, 0, 0
+  {
+   PAGEALIGN 10
+   OUTLINE 0,1, (0,4,255)
+   POINTS ( (5488,1271), (5311,1271) )
+   FILL (0,(0,4,255),0)
+  }
+  LINE  45, 0, 0
+  {
+   PAGEALIGN 10
+   OUTLINE 0,1, (0,4,255)
+   POINTS ( (5486,1278), (5308,1278) )
+   FILL (0,(0,4,255),0)
+  }
+  LINE  46, 0, 0
+  {
+   PAGEALIGN 10
+   OUTLINE 0,1, (0,4,255)
+   POINTS ( (5500,1286), (5306,1286) )
+   FILL (0,(0,4,255),0)
+  }
+  LINE  47, 0, 0
+  {
+   PAGEALIGN 10
+   OUTLINE 0,1, (0,4,255)
+   POINTS ( (5502,1294), (5310,1294) )
+   FILL (0,(0,4,255),0)
+  }
+  LINE  48, 0, 0
+  {
+   PAGEALIGN 10
+   OUTLINE 0,1, (0,4,255)
+   POINTS ( (5415,1302), (5299,1302) )
+   FILL (0,(0,4,255),0)
+  }
+  LINE  49, 0, 0
+  {
+   PAGEALIGN 10
+   OUTLINE 0,1, (0,4,255)
+   POINTS ( (5480,1311), (5295,1311) )
+   FILL (0,(0,4,255),0)
+  }
+  LINE  50, 0, 0
+  {
+   PAGEALIGN 10
+   OUTLINE 0,1, (0,4,255)
+   POINTS ( (5473,1319), (5292,1319) )
+   FILL (0,(0,4,255),0)
+  }
+  TEXT  51, 0, 0
+  {
+   PAGEALIGN 10
+   TEXT "The Design Verification Company"
+   RECT (5282,1336,5734,1370)
+   MARGINS (1,1)
+   COLOR (0,4,255)
+   FONT (12,0,0,700,1,0,0,"Arial")
+  }
+  LINE  52, 0, 0
+  {
+   PAGEALIGN 10
+   OUTLINE 0,1, (0,4,255)
+   POINTS ( (5467,1327), (5289,1327) )
+   FILL (0,(0,4,255),0)
+  }
+  LINE  53, 0, 0
+  {
+   PAGEALIGN 10
+   OUTLINE 0,1, (0,4,255)
+   POINTS ( (5490,1264), (5314,1264) )
+   FILL (0,(0,4,255),0)
+  }
+ }
+ 
+}
+

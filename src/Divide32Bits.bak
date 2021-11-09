@@ -1,0 +1,105 @@
+SCHM0102
+HEADER
+{
+  FREEID 9
+  VARIABLES
+  {
+    #ARCHITECTURE="Divide32Bits"
+    #ENTITY="Divide32Bits"
+    #LANGUAGE="VHDL"
+    AUTHOR="isaiaschavez.co@gmail.com"
+    COMPANY="utm"
+    CREATIONDATE="11/7/2021"
+    TITLE="Divide32Bits"
+  }
+}
+PAGE ""
+{
+  PAGEHEADER 
+  {
+    PAGESIZE (2200,1700)
+  }
+  BODY
+  {
+    INSTANCE 1,0,0
+    {
+      VARIABLES
+      {
+        #COMPONENT="BusInput"
+        #DOWNTO="1"
+        #LIBRARY="#terminals"
+        #REFERENCE="entrada(31:0)"
+        #SYMBOL="BusInput"
+      }
+      COORD (440,460)
+    }
+    TEXT 2,0,0
+    {
+      TEXT "$#REFERENCE"
+      RECT (385,444,385,444)
+      MARGINS (1,1)
+      COLOR (0,0,192)
+      ALIGN 2
+      PARENT 1
+    }
+    INSTANCE 3,0,0
+    {
+      VARIABLES
+      {
+        #COMPONENT="BusOutput"
+        #DOWNTO="1"
+        #LIBRARY="#terminals"
+        #REFERENCE="mantiza(22:0)"
+        #SYMBOL="BusOutput"
+      }
+      COORD (1780,460)
+    }
+    TEXT 4,0,0
+    {
+      TEXT "$#REFERENCE"
+      RECT (1835,444,1835,444)
+      MARGINS (1,1)
+      COLOR (0,0,192)
+      PARENT 3
+    }
+    INSTANCE 5,0,0
+    {
+      VARIABLES
+      {
+        #COMPONENT="BusOutput"
+        #DOWNTO="1"
+        #LIBRARY="#terminals"
+        #REFERENCE="exponente(7:0)"
+        #SYMBOL="BusOutput"
+      }
+      COORD (1780,520)
+    }
+    TEXT 6,0,0
+    {
+      TEXT "$#REFERENCE"
+      RECT (1835,504,1835,504)
+      MARGINS (1,1)
+      COLOR (0,0,192)
+      PARENT 5
+    }
+    INSTANCE 7,0,0
+    {
+      VARIABLES
+      {
+        #COMPONENT="Output"
+        #LIBRARY="#terminals"
+        #REFERENCE="signo"
+        #SYMBOL="Output"
+      }
+      COORD (1780,580)
+    }
+    TEXT 8,0,0
+    {
+      TEXT "$#REFERENCE"
+      RECT (1835,564,1835,564)
+      MARGINS (1,1)
+      COLOR (0,0,192)
+      PARENT 7
+    }
+  }
+}

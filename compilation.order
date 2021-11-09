@@ -7,3 +7,14 @@
 .\src\Sumador4BitsCode.vhd
 .\src\FullAdder1BitCode.vhd
 .\src\FullAdder1BitFub.bde
+.\src\Overflow.vhd
+.\src\Overflow.bde
+.\src\Aux1.bde
+.\src\MultiplicadorMatizaDividido.vhd
+.\src\Mux2A1-Multiplicador.vhd
+.\src\SumadorExponentes.vhd
+.\src\Unir32Bits.vhd
+.\src\MultiplicadorDePuntoFlotante.bde
+.\src\mult\producto8bits.vhd
+.\src\Multiplicador\MultiplicadorMantiza.vhd
+.\src\Multiplicador\Divide32bits.vhd

@@ -7,9 +7,9 @@
 --
 ---------------------------------------------------------------------------------------------------
 --
--- File        : c:\My_Designs\sumador\sumador\compile\Sumador4Bits.vhd
--- Generated   : Thu Nov  4 23:52:13 2021
--- From        : c:\My_Designs\sumador\sumador\src\Sumador4Bits.bde
+-- File        : C:\My_Designs\sumador\sumador\compile\Sumador4Bits.vhd
+-- Generated   : Mon Nov  8 22:12:31 2021
+-- From        : C:\My_Designs\sumador\sumador\src\Sumador4Bits.bde
 -- By          : Bde2Vhdl ver. 2.6
 --
 ---------------------------------------------------------------------------------------------------

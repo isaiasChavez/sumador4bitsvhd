@@ -7,9 +7,9 @@
 --
 ---------------------------------------------------------------------------------------------------
 --
--- File        : c:\My_Designs\sumador\sumador\compile\Alu1BitSimbol.vhd
--- Generated   : Thu Nov  4 22:38:35 2021
--- From        : c:\My_Designs\sumador\sumador\src\Alu1BitSimbol.bde
+-- File        : C:\My_Designs\sumador\sumador\compile\Alu1BitSimbol.vhd
+-- Generated   : Mon Nov  8 22:12:31 2021
+-- From        : C:\My_Designs\sumador\sumador\src\Alu1BitSimbol.bde
 -- By          : Bde2Vhdl ver. 2.6
 --
 ---------------------------------------------------------------------------------------------------
