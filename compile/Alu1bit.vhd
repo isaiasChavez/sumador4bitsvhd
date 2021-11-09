@@ -7,9 +7,9 @@
 --
 ---------------------------------------------------------------------------------------------------
 --
--- File        : C:\My_Designs\sumador\sumador\compile\Alu1bit.vhd
--- Generated   : Mon Nov  8 22:12:30 2021
--- From        : C:\My_Designs\sumador\sumador\src\Alu1bit.bde
+-- File        : c:\My_Designs\sumador\sumador\compile\Alu1bit.vhd
+-- Generated   : Tue Nov  9 01:17:12 2021
+-- From        : c:\My_Designs\sumador\sumador\src\Alu1bit.bde
 -- By          : Bde2Vhdl ver. 2.6
 --
 ---------------------------------------------------------------------------------------------------

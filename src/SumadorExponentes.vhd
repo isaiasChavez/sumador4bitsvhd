@@ -41,7 +41,7 @@ end SumadorExponentes;
 
 architecture SumadorExponentes of SumadorExponentes is
 begin
-	process (A,B) 							   
+	process (A,B,carry) 							   
 		variable Suma : STD_LOGIC_VECTOR(7 downto 0);
 		variable resta : STD_LOGIC_VECTOR(7 downto 0);
 	

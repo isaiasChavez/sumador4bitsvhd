@@ -1,0 +1,1205 @@
+# Design: Design sumador already active.
+# ELBREAD: Elaboration process.
+# ELBREAD: Elaboration time 0.0 [s].
+asim -advdataflow  -retry 3  multiplicadordepuntoflotante multiplicadordepuntoflotante
+# ELBREAD: Elaboration process.
+# ELBREAD: Elaboration time 0.0 [s].
+# asim: Stack memory: 32MB
+# asim: Retval memory: 32MB
+# KERNEL: Main thread initiated.
+# KERNEL: Kernel process initialization phase.
+# KERNEL: Time resolution set to 1ps.
+# ELAB2: Elaboration final pass...
+# ELAB2: Create instances ...
+# ELAB2: Create instances complete.
+# ELAB2: Elaboration final pass complete - time: 0.0 [s].
+# KERNEL: Kernel process initialization done.
+# Allocation: Simulator allocated 1164 kB (elbread=1071 elab2=60 kernel=33 sdf=0)
+# 01:06 a. m., martes, 9 de noviembre de 2021
+# Simulation has been initialized
+# Selected Top-Level: multiplicadordepuntoflotante (multiplicadordepuntoflotante)
+run @4us
+# : WARNING: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+# : Time: 0 ps,  Iteration: 0,  Instance: /U1.
+# : WARNING: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+# : Time: 0 ps,  Iteration: 0,  Instance: /U3.
+# : WARNING: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+# : Time: 0 ps,  Iteration: 0,  Instance: /U3.
+# : WARNING: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+# : Time: 0 ps,  Iteration: 0,  Instance: /U3.
+# : WARNING: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+# : Time: 0 ps,  Iteration: 1,  Instance: /U3.
+# : WARNING: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+# : Time: 0 ps,  Iteration: 1,  Instance: /U3.
+# KERNEL: stopped at time: 4 us
+# KERNEL: Simulation has finished. There are no more test vectors to simulate.
+acom $DSN/src/SumadorExponentes.vhd
+# Compile...
+# File: c:\My_Designs\sumador\sumador\src\SumadorExponentes.vhd
+# Compile Entity "SumadorExponentes"
+# Entity `SumadorExponentes' has been skipped - no difference detected.
+# Compile Architecture "SumadorExponentes" of Entity "SumadorExponentes"
+# Compile success 0 Errors 0 Warnings  Analysis time :  0.1 [s]
+endsim
+# Simulation has been stopped
+asim -advdataflow  -retry 3  multiplicadordepuntoflotante multiplicadordepuntoflotante
+# ELBREAD: Elaboration process.
+# ELBREAD: Elaboration time 0.0 [s].
+# asim: Stack memory: 32MB
+# asim: Retval memory: 32MB
+acom $DSN/src/MultiplicadorDePuntoFlotante.bde
+# Compile...
+# DRC: Checking file 'c:\My_Designs\sumador\sumador\src\MultiplicadorDePuntoFlotante.bde'.
+# DRC: MultiplicadorDePuntoFlotante.bde - 0 error(s), 0 warning(s)
+# DRC: The results have been written to the log file. Double click on this line to view the log.
+# Generating c:\My_Designs\sumador\sumador\compile\MultiplicadorDePuntoFlotante.vhd from c:\My_Designs\sumador\sumador\src\MultiplicadorDePuntoFlotante.bde ...
+# Generation successful
+# File: .\MultiplicadorDePuntoFlotante.vhd
+# Compile Entity "MultiplicadorDePuntoFlotante"
+# Entity `MultiplicadorDePuntoFlotante' has been skipped - no difference detected.
+# Compile Architecture "MultiplicadorDePuntoFlotante" of Entity "MultiplicadorDePuntoFlotante"
+# Compile success 0 Errors 0 Warnings  Analysis time :  0.1 [s]
+# ELBREAD: Elaboration process.
+# ELBREAD: Elaboration time 0.0 [s].
+# KERNEL: Main thread initiated.
+# KERNEL: Kernel process initialization phase.
+# KERNEL: Time resolution set to 1ps.
+# ELAB2: Elaboration final pass...
+# ELAB2: Create instances ...
+# ELAB2: Create instances complete.
+# ELAB2: Elaboration final pass complete - time: 0.0 [s].
+# KERNEL: Kernel process initialization done.
+# Allocation: Simulator allocated 1164 kB (elbread=1071 elab2=60 kernel=33 sdf=0)
+# 01:12 a. m., martes, 9 de noviembre de 2021
+# Simulation has been initialized
+# Selected Top-Level: multiplicadordepuntoflotante (multiplicadordepuntoflotante)
+run @4us
+# : WARNING: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+# : Time: 0 ps,  Iteration: 0,  Instance: /U1.
+# : WARNING: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+# : Time: 0 ps,  Iteration: 0,  Instance: /U3.
+# : WARNING: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+# : Time: 0 ps,  Iteration: 0,  Instance: /U3.
+# : WARNING: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+# : Time: 0 ps,  Iteration: 1,  Instance: /U3.
+# KERNEL: stopped at time: 4 us
+# KERNEL: Simulation has finished. There are no more test vectors to simulate.
+acom $DSN/src/SumadorExponentes.vhd
+# Compile...
+# File: c:\My_Designs\sumador\sumador\src\SumadorExponentes.vhd
+# Compile Entity "SumadorExponentes"
+# Entity `SumadorExponentes' has been skipped - no difference detected.
+# Compile Architecture "SumadorExponentes" of Entity "SumadorExponentes"
+# Compile success 0 Errors 0 Warnings  Analysis time :  0.0 [s]
+endsim
+# Simulation has been stopped
+asim -advdataflow  -retry 3  multiplicadordepuntoflotante multiplicadordepuntoflotante
+# ELBREAD: Elaboration process.
+# ELBREAD: Elaboration time 0.0 [s].
+# asim: Stack memory: 32MB
+# asim: Retval memory: 32MB
+# KERNEL: Main thread initiated.
+# KERNEL: Kernel process initialization phase.
+# KERNEL: Time resolution set to 1ps.
+# ELAB2: Elaboration final pass...
+# ELAB2: Create instances ...
+# ELAB2: Create instances complete.
+# ELAB2: Elaboration final pass complete - time: 0.0 [s].
+# KERNEL: Kernel process initialization done.
+# Allocation: Simulator allocated 1164 kB (elbread=1071 elab2=60 kernel=33 sdf=0)
+# 01:14 a. m., martes, 9 de noviembre de 2021
+# Simulation has been initialized
+# Selected Top-Level: multiplicadordepuntoflotante (multiplicadordepuntoflotante)
+run @4us
+# : WARNING: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+# : Time: 0 ps,  Iteration: 0,  Instance: /U1.
+# : WARNING: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+# : Time: 0 ps,  Iteration: 0,  Instance: /U3.
+# : WARNING: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+# : Time: 0 ps,  Iteration: 0,  Instance: /U3.
+# : WARNING: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+# : Time: 0 ps,  Iteration: 1,  Instance: /U3.
+# KERNEL: stopped at time: 4 us
+# KERNEL: Simulation has finished. There are no more test vectors to simulate.
+endsim
+# Simulation has been stopped
+acom $DSN/src/SumadorExponentes.vhd
+# Compile...
+# File: c:\My_Designs\sumador\sumador\src\SumadorExponentes.vhd
+# Compile Entity "SumadorExponentes"
+# Entity `SumadorExponentes' has been skipped - no difference detected.
+# Compile Architecture "SumadorExponentes" of Entity "SumadorExponentes"
+# Compile success 0 Errors 0 Warnings  Analysis time :  0.0 [s]
+asim -advdataflow  -retry 3  multiplicadordepuntoflotante multiplicadordepuntoflotante
+# ELBREAD: Elaboration process.
+# ELBREAD: Elaboration time 0.0 [s].
+# asim: Stack memory: 32MB
+# asim: Retval memory: 32MB
+acom $DSN/src/SumadorExponentes.vhd
+# Compile...
+# File: c:\My_Designs\sumador\sumador\src\SumadorExponentes.vhd
+# Compile Entity "SumadorExponentes"
+# Entity `SumadorExponentes' has been skipped - no difference detected.
+# Compile Architecture "SumadorExponentes" of Entity "SumadorExponentes"
+# Compile success 0 Errors 0 Warnings  Analysis time :  0.0 [s]
+# ELBREAD: Elaboration process.
+# ELBREAD: Elaboration time 0.0 [s].
+# KERNEL: Main thread initiated.
+# KERNEL: Kernel process initialization phase.
+# KERNEL: Time resolution set to 1ps.
+# ELAB2: Elaboration final pass...
+# ELAB2: Create instances ...
+# ELAB2: Create instances complete.
+# ELAB2: Elaboration final pass complete - time: 0.0 [s].
+# KERNEL: Kernel process initialization done.
+# Allocation: Simulator allocated 1164 kB (elbread=1071 elab2=60 kernel=33 sdf=0)
+# 01:16 a. m., martes, 9 de noviembre de 2021
+# Simulation has been initialized
+# Selected Top-Level: multiplicadordepuntoflotante (multiplicadordepuntoflotante)
+run @4us
+# : WARNING: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+# : Time: 0 ps,  Iteration: 0,  Instance: /U1.
+# : WARNING: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+# : Time: 0 ps,  Iteration: 0,  Instance: /U3.
+# : WARNING: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+# : Time: 0 ps,  Iteration: 0,  Instance: /U3.
+# : WARNING: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+# : Time: 0 ps,  Iteration: 1,  Instance: /U3.
+# KERNEL: stopped at time: 4 us
+# KERNEL: Simulation has finished. There are no more test vectors to simulate.
+acom $DSN/src/SumadorExponentes.vhd
+# Compile...
+# File: c:\My_Designs\sumador\sumador\src\SumadorExponentes.vhd
+# Compile Entity "SumadorExponentes"
+# Entity `SumadorExponentes' has been skipped - no difference detected.
+# Compile Architecture "SumadorExponentes" of Entity "SumadorExponentes"
+# Compile success 0 Errors 0 Warnings  Analysis time :  0.1 [s]
+endsim
+# Simulation has been stopped
+asim -advdataflow  -retry 3  multiplicadordepuntoflotante multiplicadordepuntoflotante
+# ELBREAD: Elaboration process.
+# ELBREAD: Elaboration time 0.0 [s].
+# asim: Stack memory: 32MB
+# asim: Retval memory: 32MB
+# KERNEL: Main thread initiated.
+# KERNEL: Kernel process initialization phase.
+# KERNEL: Time resolution set to 1ps.
+# ELAB2: Elaboration final pass...
+# ELAB2: Create instances ...
+# ELAB2: Create instances complete.
+# ELAB2: Elaboration final pass complete - time: 0.0 [s].
+# KERNEL: Kernel process initialization done.
+# Allocation: Simulator allocated 1163 kB (elbread=1071 elab2=59 kernel=33 sdf=0)
+# 01:17 a. m., martes, 9 de noviembre de 2021
+# Simulation has been initialized
+# Selected Top-Level: multiplicadordepuntoflotante (multiplicadordepuntoflotante)
+acom $DSN/src/mul2a1de1bit.bde $DSN/src/mux2a1de1bit.vhd $DSN/src/alu1bit.bde $DSN/src/alu1bitcode.vhd $DSN/src/alu1bitsimbol.bde $DSN/src/sumador4bits.bde $DSN/src/sumador4bitscode.vhd $DSN/src/fulladder1bitcode.vhd $DSN/src/fulladder1bitfub.bde $DSN/src/overflow.vhd $DSN/src/overflow.bde $DSN/src/aux1.bde $DSN/src/multiplicadormatizadividido.vhd $DSN/src/mux2a1-multiplicador.vhd $DSN/src/sumadorexponentes.vhd $DSN/src/unir32bits.vhd $DSN/src/multiplicadordepuntoflotante.bde $DSN/src/mult/producto8bits.vhd $DSN/src/multiplicador/multiplicadormantiza.vhd $DSN/src/multiplicador/divide32bits.vhd
+# Compile...
+# DRC: Checking file 'c:\My_Designs\sumador\sumador\src\mul2a1de1bit.bde'.
+# DRC: mul2a1de1bit.bde - 0 error(s), 0 warning(s)
+# DRC: The results have been written to the log file. Double click on this line to view the log.
+# Generating c:\My_Designs\sumador\sumador\compile\mul2a1de1bit.vhd from c:\My_Designs\sumador\sumador\src\mul2a1de1bit.bde ...
+# Generation successful
+# DRC: Checking file 'c:\My_Designs\sumador\sumador\src\Alu1bit.bde'.
+# DRC: Alu1bit.bde - 0 error(s), 0 warning(s)
+# DRC: The results have been written to the log file. Double click on this line to view the log.
+# Generating c:\My_Designs\sumador\sumador\compile\Alu1bit.vhd from c:\My_Designs\sumador\sumador\src\Alu1bit.bde ...
+# Generation successful
+# DRC: Checking file 'c:\My_Designs\sumador\sumador\src\Alu1BitSimbol.bde'.
+# DRC: Alu1BitSimbol.bde - 0 error(s), 0 warning(s)
+# DRC: The results have been written to the log file. Double click on this line to view the log.
+# Generating c:\My_Designs\sumador\sumador\compile\Alu1BitSimbol.vhd from c:\My_Designs\sumador\sumador\src\Alu1BitSimbol.bde ...
+# Generation successful
+# DRC: Checking file 'c:\My_Designs\sumador\sumador\src\Sumador4Bits.bde'.
+# DRC: Sumador4Bits.bde - 0 error(s), 0 warning(s)
+# DRC: The results have been written to the log file. Double click on this line to view the log.
+# Generating c:\My_Designs\sumador\sumador\compile\Sumador4Bits.vhd from c:\My_Designs\sumador\sumador\src\Sumador4Bits.bde ...
+# Generation successful
+# DRC: Checking file 'c:\My_Designs\sumador\sumador\src\FullAdder1BitFub.bde'.
+# DRC: FullAdder1BitFub.bde - 0 error(s), 0 warning(s)
+# DRC: The results have been written to the log file. Double click on this line to view the log.
+# Generating c:\My_Designs\sumador\sumador\compile\FullAdder1BitFub.vhd from c:\My_Designs\sumador\sumador\src\FullAdder1BitFub.bde ...
+# Generation successful
+# DRC: Checking file 'c:\My_Designs\sumador\sumador\src\Overflow.bde'.
+# DRC: Warning: Overflow.bde - 0 error(s), 7 warning(s)
+# DRC: The results have been written to the log file. Double click on this line to view the log.
+# Generating c:\My_Designs\sumador\sumador\compile\Overflow.vhd from c:\My_Designs\sumador\sumador\src\Overflow.bde ...
+# Generation successful
+# DRC: Checking file 'c:\My_Designs\sumador\sumador\src\Aux1.bde'.
+# DRC: Aux1.bde - 0 error(s), 0 warning(s)
+# DRC: The results have been written to the log file. Double click on this line to view the log.
+# Generating c:\My_Designs\sumador\sumador\compile\Aux1.vhd from c:\My_Designs\sumador\sumador\src\Aux1.bde ...
+# Generation successful
+# DRC: Checking file 'c:\My_Designs\sumador\sumador\src\MultiplicadorDePuntoFlotante.bde'.
+# DRC: MultiplicadorDePuntoFlotante.bde - 0 error(s), 0 warning(s)
+# DRC: The results have been written to the log file. Double click on this line to view the log.
+# Generating c:\My_Designs\sumador\sumador\compile\MultiplicadorDePuntoFlotante.vhd from c:\My_Designs\sumador\sumador\src\MultiplicadorDePuntoFlotante.bde ...
+# Generation successful
+# File: .\mul2a1de1bit.vhd
+# Compile Entity "mul2a1de1bit"
+# Entity `mul2a1de1bit' has been skipped - no difference detected.
+# Compile Architecture "mul2a1de1bit" of Entity "mul2a1de1bit"
+# File: c:\My_Designs\sumador\sumador\src\mux2a1de1bit.vhd
+# Compile Entity "mux2a1de1bit"
+# Entity `mux2a1de1bit' has been skipped - no difference detected.
+# Compile Architecture "mux2a1de1bit" of Entity "mux2a1de1bit"
+# File: .\Alu1bit.vhd
+# Compile Entity "Alu1bit"
+# Entity `Alu1bit' has been skipped - no difference detected.
+# Compile Architecture "Alu1bit" of Entity "Alu1bit"
+# File: c:\My_Designs\sumador\sumador\src\Alu1bitcode.vhd
+# Compile Entity "Alu1bit"
+# Entity `Alu1bit' has been skipped - no difference detected.
+# Compile Architecture "Alu1bit" of Entity "Alu1bit"
+# File: .\Alu1BitSimbol.vhd
+# Compile Entity "Alu1BitSimbol"
+# Entity `Alu1BitSimbol' has been skipped - no difference detected.
+# Compile Architecture "Alu1BitSimbol" of Entity "Alu1BitSimbol"
+# File: .\Sumador4Bits.vhd
+# Compile Entity "Sumador4Bits"
+# Entity `Sumador4Bits' has been skipped - no difference detected.
+# Compile Architecture "Sumador4Bits" of Entity "Sumador4Bits"
+# File: c:\My_Designs\sumador\sumador\src\Sumador4BitsCode.vhd
+# Compile Entity "Sumador4Bits"
+# Entity `Sumador4Bits' has been skipped - no difference detected.
+# Compile Architecture "Sumador4Bits" of Entity "Sumador4Bits"
+# File: c:\My_Designs\sumador\sumador\src\FullAdder1BitCode.vhd
+# Compile Entity "FullAdder1BitCode"
+# Entity `FullAdder1BitCode' has been skipped - no difference detected.
+# Compile Architecture "FullAdder1BitCode" of Entity "FullAdder1BitCode"
+# File: .\FullAdder1BitFub.vhd
+# Compile Entity "FullAdder1BitFub"
+# Entity `FullAdder1BitFub' has been skipped - no difference detected.
+# Compile Architecture "FullAdder1BitFub" of Entity "FullAdder1BitFub"
+# File: c:\My_Designs\sumador\sumador\src\Overflow.vhd
+# Compile Entity "OverFlow"
+# Compile Architecture "OverFlow" of Entity "OverFlow"
+# File: .\Overflow.vhd
+# Compile Entity "Overflow"
+# Compile Architecture "Overflow" of Entity "Overflow"
+# File: .\Aux1.vhd
+# Compile Entity "Aux1"
+# Entity `Aux1' has been skipped - no difference detected.
+# Compile Architecture "Aux1" of Entity "Aux1"
+# File: c:\My_Designs\sumador\sumador\src\MultiplicadorMatizaDividido.vhd
+# Compile Entity "MultiplicadorMatizaDividido"
+# Entity `MultiplicadorMatizaDividido' has been skipped - no difference detected.
+# Compile Architecture "MultiplicadorMatizaDividido" of Entity "MultiplicadorMatizaDividido"
+# File: c:\My_Designs\sumador\sumador\src\Mux2A1-Multiplicador.vhd
+# Compile Entity "\Mux2A1-Multiplicador\"
+# Entity `\Mux2A1-Multiplicador\' has been skipped - no difference detected.
+# Compile Architecture "\Mux2A1-Multiplicador\" of Entity "\Mux2A1-Multiplicador\"
+# File: c:\My_Designs\sumador\sumador\src\SumadorExponentes.vhd
+# Compile Entity "SumadorExponentes"
+# Entity `SumadorExponentes' has been skipped - no difference detected.
+# Compile Architecture "SumadorExponentes" of Entity "SumadorExponentes"
+# File: c:\My_Designs\sumador\sumador\src\Unir32Bits.vhd
+# Compile Entity "Unir32Bits"
+# Entity `Unir32Bits' has been skipped - no difference detected.
+# Compile Architecture "Unir32Bits" of Entity "Unir32Bits"
+# File: .\MultiplicadorDePuntoFlotante.vhd
+# Compile Entity "MultiplicadorDePuntoFlotante"
+# Entity `MultiplicadorDePuntoFlotante' has been skipped - no difference detected.
+# Compile Architecture "MultiplicadorDePuntoFlotante" of Entity "MultiplicadorDePuntoFlotante"
+# File: c:\My_Designs\sumador\sumador\src\mult\producto8bits.vhd
+# Compile Entity "producto8bits"
+# Entity `producto8bits' has been skipped - no difference detected.
+# Compile Architecture "producto8bits" of Entity "producto8bits"
+# File: c:\My_Designs\sumador\sumador\src\Multiplicador\MultiplicadorMantiza.vhd
+# Compile Entity "MultiplicadorMantiza"
+# Entity `MultiplicadorMantiza' has been skipped - no difference detected.
+# Compile Architecture "MultiplicadorMantiza" of Entity "MultiplicadorMantiza"
+# File: c:\My_Designs\sumador\sumador\src\Multiplicador\Divide32bits.vhd
+# Compile Entity "Divide32bits"
+# Entity `Divide32bits' has been skipped - no difference detected.
+# Compile Architecture "Divide32bits" of Entity "Divide32bits"
+# Compile success 0 Errors 0 Warnings  Analysis time :  1.0 [s]
+run @4us
+# : WARNING: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+# : Time: 0 ps,  Iteration: 0,  Instance: /U1.
+# : WARNING: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+# : Time: 0 ps,  Iteration: 0,  Instance: /U3.
+# KERNEL: stopped at time: 4 us
+# KERNEL: Simulation has finished. There are no more test vectors to simulate.
+acom $DSN/src/SumadorExponentes.vhd
+# Compile...
+# File: c:\My_Designs\sumador\sumador\src\SumadorExponentes.vhd
+# Compile Entity "SumadorExponentes"
+# Entity `SumadorExponentes' has been skipped - no difference detected.
+# Compile Architecture "SumadorExponentes" of Entity "SumadorExponentes"
+# Compile success 0 Errors 0 Warnings  Analysis time :  0.0 [s]
+endsim
+# Simulation has been stopped
+asim -advdataflow  -retry 3  multiplicadordepuntoflotante multiplicadordepuntoflotante
+# ELBREAD: Elaboration process.
+# ELBREAD: Elaboration time 0.0 [s].
+# asim: Stack memory: 32MB
+# asim: Retval memory: 32MB
+# KERNEL: Main thread initiated.
+# KERNEL: Kernel process initialization phase.
+# KERNEL: Time resolution set to 1ps.
+# ELAB2: Elaboration final pass...
+# ELAB2: Create instances ...
+# ELAB2: Create instances complete.
+# ELAB2: Elaboration final pass complete - time: 0.0 [s].
+# KERNEL: Kernel process initialization done.
+# Allocation: Simulator allocated 1163 kB (elbread=1071 elab2=59 kernel=33 sdf=0)
+# 01:18 a. m., martes, 9 de noviembre de 2021
+# Simulation has been initialized
+# Selected Top-Level: multiplicadordepuntoflotante (multiplicadordepuntoflotante)
+run @4us
+# : WARNING: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+# : Time: 0 ps,  Iteration: 0,  Instance: /U1.
+# KERNEL: stopped at time: 4 us
+# KERNEL: Simulation has finished. There are no more test vectors to simulate.
+endsim
+# Simulation has been stopped
+acom $DSN/src/mul2a1de1bit.bde $DSN/src/mux2a1de1bit.vhd $DSN/src/alu1bit.bde $DSN/src/alu1bitcode.vhd $DSN/src/alu1bitsimbol.bde $DSN/src/sumador4bits.bde $DSN/src/sumador4bitscode.vhd $DSN/src/fulladder1bitcode.vhd $DSN/src/fulladder1bitfub.bde $DSN/src/overflow.vhd $DSN/src/overflow.bde $DSN/src/aux1.bde $DSN/src/multiplicadormatizadividido.vhd $DSN/src/mux2a1-multiplicador.vhd $DSN/src/sumadorexponentes.vhd $DSN/src/unir32bits.vhd $DSN/src/multiplicadordepuntoflotante.bde $DSN/src/mult/producto8bits.vhd $DSN/src/multiplicador/multiplicadormantiza.vhd $DSN/src/multiplicador/divide32bits.vhd
+# Compile...
+# File: .\mul2a1de1bit.vhd
+# Compile Entity "mul2a1de1bit"
+# Entity `mul2a1de1bit' has been skipped - no difference detected.
+# Compile Architecture "mul2a1de1bit" of Entity "mul2a1de1bit"
+# File: c:\My_Designs\sumador\sumador\src\mux2a1de1bit.vhd
+# Compile Entity "mux2a1de1bit"
+# Entity `mux2a1de1bit' has been skipped - no difference detected.
+# Compile Architecture "mux2a1de1bit" of Entity "mux2a1de1bit"
+# File: .\Alu1bit.vhd
+# Compile Entity "Alu1bit"
+# Entity `Alu1bit' has been skipped - no difference detected.
+# Compile Architecture "Alu1bit" of Entity "Alu1bit"
+# File: c:\My_Designs\sumador\sumador\src\Alu1bitcode.vhd
+# Compile Entity "Alu1bit"
+# Entity `Alu1bit' has been skipped - no difference detected.
+# Compile Architecture "Alu1bit" of Entity "Alu1bit"
+# File: .\Alu1BitSimbol.vhd
+# Compile Entity "Alu1BitSimbol"
+# Entity `Alu1BitSimbol' has been skipped - no difference detected.
+# Compile Architecture "Alu1BitSimbol" of Entity "Alu1BitSimbol"
+# File: .\Sumador4Bits.vhd
+# Compile Entity "Sumador4Bits"
+# Entity `Sumador4Bits' has been skipped - no difference detected.
+# Compile Architecture "Sumador4Bits" of Entity "Sumador4Bits"
+# File: c:\My_Designs\sumador\sumador\src\Sumador4BitsCode.vhd
+# Compile Entity "Sumador4Bits"
+# Entity `Sumador4Bits' has been skipped - no difference detected.
+# Compile Architecture "Sumador4Bits" of Entity "Sumador4Bits"
+# File: c:\My_Designs\sumador\sumador\src\FullAdder1BitCode.vhd
+# Compile Entity "FullAdder1BitCode"
+# Entity `FullAdder1BitCode' has been skipped - no difference detected.
+# Compile Architecture "FullAdder1BitCode" of Entity "FullAdder1BitCode"
+# File: .\FullAdder1BitFub.vhd
+# Compile Entity "FullAdder1BitFub"
+# Entity `FullAdder1BitFub' has been skipped - no difference detected.
+# Compile Architecture "FullAdder1BitFub" of Entity "FullAdder1BitFub"
+# File: c:\My_Designs\sumador\sumador\src\Overflow.vhd
+# Compile Entity "OverFlow"
+# Compile Architecture "OverFlow" of Entity "OverFlow"
+# File: .\Overflow.vhd
+# Compile Entity "Overflow"
+# Compile Architecture "Overflow" of Entity "Overflow"
+# File: .\Aux1.vhd
+# Compile Entity "Aux1"
+# Entity `Aux1' has been skipped - no difference detected.
+# Compile Architecture "Aux1" of Entity "Aux1"
+# File: c:\My_Designs\sumador\sumador\src\MultiplicadorMatizaDividido.vhd
+# Compile Entity "MultiplicadorMatizaDividido"
+# Entity `MultiplicadorMatizaDividido' has been skipped - no difference detected.
+# Compile Architecture "MultiplicadorMatizaDividido" of Entity "MultiplicadorMatizaDividido"
+# File: c:\My_Designs\sumador\sumador\src\Mux2A1-Multiplicador.vhd
+# Compile Entity "\Mux2A1-Multiplicador\"
+# Entity `\Mux2A1-Multiplicador\' has been skipped - no difference detected.
+# Compile Architecture "\Mux2A1-Multiplicador\" of Entity "\Mux2A1-Multiplicador\"
+# File: c:\My_Designs\sumador\sumador\src\SumadorExponentes.vhd
+# Compile Entity "SumadorExponentes"
+# Entity `SumadorExponentes' has been skipped - no difference detected.
+# Compile Architecture "SumadorExponentes" of Entity "SumadorExponentes"
+# File: c:\My_Designs\sumador\sumador\src\Unir32Bits.vhd
+# Compile Entity "Unir32Bits"
+# Entity `Unir32Bits' has been skipped - no difference detected.
+# Compile Architecture "Unir32Bits" of Entity "Unir32Bits"
+# File: .\MultiplicadorDePuntoFlotante.vhd
+# Compile Entity "MultiplicadorDePuntoFlotante"
+# Entity `MultiplicadorDePuntoFlotante' has been skipped - no difference detected.
+# Compile Architecture "MultiplicadorDePuntoFlotante" of Entity "MultiplicadorDePuntoFlotante"
+# File: c:\My_Designs\sumador\sumador\src\mult\producto8bits.vhd
+# Compile Entity "producto8bits"
+# Entity `producto8bits' has been skipped - no difference detected.
+# Compile Architecture "producto8bits" of Entity "producto8bits"
+# File: c:\My_Designs\sumador\sumador\src\Multiplicador\MultiplicadorMantiza.vhd
+# Compile Entity "MultiplicadorMantiza"
+# Entity `MultiplicadorMantiza' has been skipped - no difference detected.
+# Compile Architecture "MultiplicadorMantiza" of Entity "MultiplicadorMantiza"
+# File: c:\My_Designs\sumador\sumador\src\Multiplicador\Divide32bits.vhd
+# Compile Entity "Divide32bits"
+# Entity `Divide32bits' has been skipped - no difference detected.
+# Compile Architecture "Divide32bits" of Entity "Divide32bits"
+# Compile success 0 Errors 0 Warnings  Analysis time :  0.7 [s]
+asim -advdataflow  -retry 3  multiplicadordepuntoflotante multiplicadordepuntoflotante
+# ELBREAD: Elaboration process.
+# ELBREAD: Elaboration time 0.0 [s].
+# asim: Stack memory: 32MB
+# asim: Retval memory: 32MB
+# KERNEL: Main thread initiated.
+# KERNEL: Kernel process initialization phase.
+# KERNEL: Time resolution set to 1ps.
+# ELAB2: Elaboration final pass...
+# ELAB2: Create instances ...
+# ELAB2: Create instances complete.
+# ELAB2: Elaboration final pass complete - time: 0.0 [s].
+# KERNEL: Kernel process initialization done.
+# Allocation: Simulator allocated 1163 kB (elbread=1071 elab2=59 kernel=33 sdf=0)
+# 01:18 a. m., martes, 9 de noviembre de 2021
+# Simulation has been initialized
+# Selected Top-Level: multiplicadordepuntoflotante (multiplicadordepuntoflotante)
+run @4us
+# : WARNING: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+# : Time: 0 ps,  Iteration: 0,  Instance: /U1.
+# KERNEL: stopped at time: 4 us
+# KERNEL: Simulation has finished. There are no more test vectors to simulate.
+acom $DSN/src/mul2a1de1bit.bde $DSN/src/mux2a1de1bit.vhd $DSN/src/alu1bit.bde $DSN/src/alu1bitcode.vhd $DSN/src/alu1bitsimbol.bde $DSN/src/sumador4bits.bde $DSN/src/sumador4bitscode.vhd $DSN/src/fulladder1bitcode.vhd $DSN/src/fulladder1bitfub.bde $DSN/src/overflow.vhd $DSN/src/overflow.bde $DSN/src/aux1.bde $DSN/src/multiplicadormatizadividido.vhd $DSN/src/mux2a1-multiplicador.vhd $DSN/src/sumadorexponentes.vhd $DSN/src/unir32bits.vhd $DSN/src/multiplicadordepuntoflotante.bde $DSN/src/mult/producto8bits.vhd $DSN/src/multiplicador/multiplicadormantiza.vhd $DSN/src/multiplicador/divide32bits.vhd
+# Compile...
+# DRC: Checking file 'c:\My_Designs\sumador\sumador\src\MultiplicadorDePuntoFlotante.bde'.
+# DRC: Warning: MultiplicadorDePuntoFlotante.bde - 0 error(s), 5 warning(s)
+# DRC: The results have been written to the log file. Double click on this line to view the log.
+# Generating c:\My_Designs\sumador\sumador\compile\MultiplicadorDePuntoFlotante.vhd from c:\My_Designs\sumador\sumador\src\MultiplicadorDePuntoFlotante.bde ...
+# Generation successful
+# File: .\mul2a1de1bit.vhd
+# Compile Entity "mul2a1de1bit"
+# Entity `mul2a1de1bit' has been skipped - no difference detected.
+# Compile Architecture "mul2a1de1bit" of Entity "mul2a1de1bit"
+# File: c:\My_Designs\sumador\sumador\src\mux2a1de1bit.vhd
+# Compile Entity "mux2a1de1bit"
+# Entity `mux2a1de1bit' has been skipped - no difference detected.
+# Compile Architecture "mux2a1de1bit" of Entity "mux2a1de1bit"
+# File: .\Alu1bit.vhd
+# Compile Entity "Alu1bit"
+# Entity `Alu1bit' has been skipped - no difference detected.
+# Compile Architecture "Alu1bit" of Entity "Alu1bit"
+# File: c:\My_Designs\sumador\sumador\src\Alu1bitcode.vhd
+# Compile Entity "Alu1bit"
+# Entity `Alu1bit' has been skipped - no difference detected.
+# Compile Architecture "Alu1bit" of Entity "Alu1bit"
+# File: .\Alu1BitSimbol.vhd
+# Compile Entity "Alu1BitSimbol"
+# Entity `Alu1BitSimbol' has been skipped - no difference detected.
+# Compile Architecture "Alu1BitSimbol" of Entity "Alu1BitSimbol"
+# File: .\Sumador4Bits.vhd
+# Compile Entity "Sumador4Bits"
+# Entity `Sumador4Bits' has been skipped - no difference detected.
+# Compile Architecture "Sumador4Bits" of Entity "Sumador4Bits"
+# File: c:\My_Designs\sumador\sumador\src\Sumador4BitsCode.vhd
+# Compile Entity "Sumador4Bits"
+# Entity `Sumador4Bits' has been skipped - no difference detected.
+# Compile Architecture "Sumador4Bits" of Entity "Sumador4Bits"
+# File: c:\My_Designs\sumador\sumador\src\FullAdder1BitCode.vhd
+# Compile Entity "FullAdder1BitCode"
+# Entity `FullAdder1BitCode' has been skipped - no difference detected.
+# Compile Architecture "FullAdder1BitCode" of Entity "FullAdder1BitCode"
+# File: .\FullAdder1BitFub.vhd
+# Compile Entity "FullAdder1BitFub"
+# Entity `FullAdder1BitFub' has been skipped - no difference detected.
+# Compile Architecture "FullAdder1BitFub" of Entity "FullAdder1BitFub"
+# File: c:\My_Designs\sumador\sumador\src\Overflow.vhd
+# Compile Entity "OverFlow"
+# Compile Architecture "OverFlow" of Entity "OverFlow"
+# File: .\Overflow.vhd
+# Compile Entity "Overflow"
+# Compile Architecture "Overflow" of Entity "Overflow"
+# File: .\Aux1.vhd
+# Compile Entity "Aux1"
+# Entity `Aux1' has been skipped - no difference detected.
+# Compile Architecture "Aux1" of Entity "Aux1"
+# File: c:\My_Designs\sumador\sumador\src\MultiplicadorMatizaDividido.vhd
+# Compile Entity "MultiplicadorMatizaDividido"
+# Entity `MultiplicadorMatizaDividido' has been skipped - no difference detected.
+# Compile Architecture "MultiplicadorMatizaDividido" of Entity "MultiplicadorMatizaDividido"
+# File: c:\My_Designs\sumador\sumador\src\Mux2A1-Multiplicador.vhd
+# Compile Entity "\Mux2A1-Multiplicador\"
+# Entity `\Mux2A1-Multiplicador\' has been skipped - no difference detected.
+# Compile Architecture "\Mux2A1-Multiplicador\" of Entity "\Mux2A1-Multiplicador\"
+# File: c:\My_Designs\sumador\sumador\src\SumadorExponentes.vhd
+# Compile Entity "SumadorExponentes"
+# Entity `SumadorExponentes' has been skipped - no difference detected.
+# Compile Architecture "SumadorExponentes" of Entity "SumadorExponentes"
+# File: c:\My_Designs\sumador\sumador\src\Unir32Bits.vhd
+# Compile Entity "Unir32Bits"
+# Entity `Unir32Bits' has been skipped - no difference detected.
+# Compile Architecture "Unir32Bits" of Entity "Unir32Bits"
+# File: .\MultiplicadorDePuntoFlotante.vhd
+# Compile Entity "MultiplicadorDePuntoFlotante"
+# Entity `MultiplicadorDePuntoFlotante' has been skipped - no difference detected.
+# Compile Architecture "MultiplicadorDePuntoFlotante" of Entity "MultiplicadorDePuntoFlotante"
+# File: c:\My_Designs\sumador\sumador\src\mult\producto8bits.vhd
+# Compile Entity "producto8bits"
+# Entity `producto8bits' has been skipped - no difference detected.
+# Compile Architecture "producto8bits" of Entity "producto8bits"
+# File: c:\My_Designs\sumador\sumador\src\Multiplicador\MultiplicadorMantiza.vhd
+# Compile Entity "MultiplicadorMantiza"
+# Entity `MultiplicadorMantiza' has been skipped - no difference detected.
+# Compile Architecture "MultiplicadorMantiza" of Entity "MultiplicadorMantiza"
+# File: c:\My_Designs\sumador\sumador\src\Multiplicador\Divide32bits.vhd
+# Compile Entity "Divide32bits"
+# Entity `Divide32bits' has been skipped - no difference detected.
+# Compile Architecture "Divide32bits" of Entity "Divide32bits"
+# Compile success 0 Errors 0 Warnings  Analysis time :  0.9 [s]
+endsim
+# Simulation has been stopped
+asim -advdataflow  -retry 3  multiplicadordepuntoflotante multiplicadordepuntoflotante
+# ELBREAD: Elaboration process.
+# ELBREAD: Elaboration time 0.0 [s].
+# asim: Stack memory: 32MB
+# asim: Retval memory: 32MB
+# KERNEL: Main thread initiated.
+# KERNEL: Kernel process initialization phase.
+# KERNEL: Time resolution set to 1ps.
+# ELAB2: Elaboration final pass...
+# ELAB2: Create instances ...
+# ELAB2: Create instances complete.
+# ELAB2: Elaboration final pass complete - time: 0.0 [s].
+# KERNEL: Kernel process initialization done.
+# Allocation: Simulator allocated 1165 kB (elbread=1071 elab2=61 kernel=33 sdf=0)
+# 01:22 a. m., martes, 9 de noviembre de 2021
+# Simulation has been initialized
+# Selected Top-Level: multiplicadordepuntoflotante (multiplicadordepuntoflotante)
+run 4000 ns
+# : WARNING: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+# : Time: 0 ps,  Iteration: 0,  Instance: /U1.
+# KERNEL: stopped at time: 4 us
+# KERNEL: Simulation has finished. There are no more test vectors to simulate.
+endsim
+# Simulation has been stopped
+asim -advdataflow  -retry 3  multiplicadordepuntoflotante multiplicadordepuntoflotante
+# ELBREAD: Elaboration process.
+# ELBREAD: Elaboration time 0.0 [s].
+# asim: Stack memory: 32MB
+# asim: Retval memory: 32MB
+# KERNEL: Main thread initiated.
+# KERNEL: Kernel process initialization phase.
+# KERNEL: Time resolution set to 1ps.
+# ELAB2: Elaboration final pass...
+# ELAB2: Create instances ...
+# ELAB2: Create instances complete.
+# ELAB2: Elaboration final pass complete - time: 0.0 [s].
+# KERNEL: Kernel process initialization done.
+# Allocation: Simulator allocated 1165 kB (elbread=1071 elab2=61 kernel=33 sdf=0)
+# 01:23 a. m., martes, 9 de noviembre de 2021
+# Simulation has been initialized
+# Selected Top-Level: multiplicadordepuntoflotante (multiplicadordepuntoflotante)
+# Simulation has been stopped
+# ELBREAD: Elaboration process.
+# ELBREAD: Elaboration time 0.0 [s].
+asim -advdataflow  -retry 3  sumadorexponentes sumadorexponentes
+# ELBREAD: Elaboration process.
+# ELBREAD: Elaboration time 0.0 [s].
+# asim: Stack memory: 32MB
+# asim: Retval memory: 32MB
+# KERNEL: Main thread initiated.
+# KERNEL: Kernel process initialization phase.
+# KERNEL: Time resolution set to 1ps.
+# ELAB2: Elaboration final pass...
+# ELAB2: Create instances ...
+# ELAB2: Create instances complete.
+# ELAB2: Elaboration final pass complete - time: 0.0 [s].
+# KERNEL: Kernel process initialization done.
+# Allocation: Simulator allocated 1098 kB (elbread=1070 elab2=3 kernel=25 sdf=0)
+# 01:24 a. m., martes, 9 de noviembre de 2021
+# Simulation has been initialized
+# Selected Top-Level: sumadorexponentes (sumadorexponentes)
+# Signal R not found in design
+run 4000 ns
+# KERNEL: stopped at time: 4 us
+# KERNEL: Simulation has finished. There are no more test vectors to simulate.
+run 4000 ns
+# KERNEL: stopped at time: 8 us
+# KERNEL: Simulation has finished. There are no more test vectors to simulate.
+acom $DSN/src/SumadorExponentes.vhd
+# Compile...
+# File: c:\My_Designs\sumador\sumador\src\SumadorExponentes.vhd
+# Compile Entity "SumadorExponentes"
+# Entity `SumadorExponentes' has been skipped - no difference detected.
+# Compile Architecture "SumadorExponentes" of Entity "SumadorExponentes"
+# Compile success 0 Errors 0 Warnings  Analysis time :  0.1 [s]
+endsim
+# Simulation has been stopped
+asim -advdataflow  -retry 3  sumadorexponentes sumadorexponentes
+# ELBREAD: Elaboration process.
+# ELBREAD: Elaboration time 0.0 [s].
+# asim: Stack memory: 32MB
+# asim: Retval memory: 32MB
+# KERNEL: Main thread initiated.
+# KERNEL: Kernel process initialization phase.
+# KERNEL: Time resolution set to 1ps.
+# ELAB2: Elaboration final pass...
+# ELAB2: Create instances ...
+# ELAB2: Create instances complete.
+# ELAB2: Elaboration final pass complete - time: 0.0 [s].
+# KERNEL: Kernel process initialization done.
+# Allocation: Simulator allocated 1099 kB (elbread=1070 elab2=4 kernel=25 sdf=0)
+# 01:25 a. m., martes, 9 de noviembre de 2021
+# Simulation has been initialized
+# Selected Top-Level: sumadorexponentes (sumadorexponentes)
+# Signal R not found in design
+run 4000 ns
+# : WARNING: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+# : Time: 0 ps,  Iteration: 0,  Instance: \.
+# : WARNING: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+# : Time: 0 ps,  Iteration: 0,  Instance: \.
+# KERNEL: stopped at time: 4 us
+# KERNEL: Simulation has finished. There are no more test vectors to simulate.
+acom $DSN/src/SumadorExponentes.vhd
+# Compile...
+# File: c:\My_Designs\sumador\sumador\src\SumadorExponentes.vhd
+# Compile Entity "SumadorExponentes"
+# Entity `SumadorExponentes' has been skipped - no difference detected.
+# Compile Architecture "SumadorExponentes" of Entity "SumadorExponentes"
+# Compile success 0 Errors 0 Warnings  Analysis time :  0.1 [s]
+acom $DSN/src/SumadorExponentes.vhd
+# Compile...
+# File: c:\My_Designs\sumador\sumador\src\SumadorExponentes.vhd
+# Compile Entity "SumadorExponentes"
+# Entity `SumadorExponentes' has been skipped - no difference detected.
+# Compile Architecture "SumadorExponentes" of Entity "SumadorExponentes"
+# Compile success 0 Errors 0 Warnings  Analysis time :  0.0 [s]
+run 4000 ns
+# KERNEL: stopped at time: 8 us
+# KERNEL: Simulation has finished. There are no more test vectors to simulate.
+endsim
+# Simulation has been stopped
+asim -advdataflow  -retry 3  sumadorexponentes sumadorexponentes
+# ELBREAD: Elaboration process.
+# ELBREAD: Elaboration time 0.0 [s].
+# asim: Stack memory: 32MB
+# asim: Retval memory: 32MB
+# KERNEL: Main thread initiated.
+# KERNEL: Kernel process initialization phase.
+# KERNEL: Time resolution set to 1ps.
+# ELAB2: Elaboration final pass...
+# ELAB2: Create instances ...
+# ELAB2: Create instances complete.
+# ELAB2: Elaboration final pass complete - time: 0.0 [s].
+# KERNEL: Kernel process initialization done.
+# Allocation: Simulator allocated 1099 kB (elbread=1070 elab2=4 kernel=25 sdf=0)
+# 01:26 a. m., martes, 9 de noviembre de 2021
+# Simulation has been initialized
+# Selected Top-Level: sumadorexponentes (sumadorexponentes)
+# Signal R not found in design
+run 4000 ns
+# : WARNING: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+# : Time: 0 ps,  Iteration: 0,  Instance: \.
+# KERNEL: stopped at time: 4 us
+# KERNEL: Simulation has finished. There are no more test vectors to simulate.
+acom $DSN/src/SumadorExponentes.vhd
+# Compile...
+# File: c:\My_Designs\sumador\sumador\src\SumadorExponentes.vhd
+# Compile Entity "SumadorExponentes"
+# Entity `SumadorExponentes' has been skipped - no difference detected.
+# Compile Architecture "SumadorExponentes" of Entity "SumadorExponentes"
+# Compile success 0 Errors 0 Warnings  Analysis time :  0.1 [s]
+endsim
+# Simulation has been stopped
+asim -advdataflow  -retry 3  sumadorexponentes sumadorexponentes
+# ELBREAD: Elaboration process.
+# ELBREAD: Elaboration time 0.0 [s].
+# asim: Stack memory: 32MB
+# asim: Retval memory: 32MB
+# KERNEL: Main thread initiated.
+# KERNEL: Kernel process initialization phase.
+# KERNEL: Time resolution set to 1ps.
+# ELAB2: Elaboration final pass...
+# ELAB2: Create instances ...
+# ELAB2: Create instances complete.
+# ELAB2: Elaboration final pass complete - time: 0.0 [s].
+# KERNEL: Kernel process initialization done.
+# Allocation: Simulator allocated 1099 kB (elbread=1070 elab2=4 kernel=25 sdf=0)
+# 01:27 a. m., martes, 9 de noviembre de 2021
+# Simulation has been initialized
+# Selected Top-Level: sumadorexponentes (sumadorexponentes)
+# Signal R not found in design
+run 4000 ns
+# KERNEL: stopped at time: 4 us
+# KERNEL: Simulation has finished. There are no more test vectors to simulate.
+acom $DSN/src/SumadorExponentes.vhd
+# Compile...
+# File: c:\My_Designs\sumador\sumador\src\SumadorExponentes.vhd
+# Compile Entity "SumadorExponentes"
+# Entity `SumadorExponentes' has been skipped - no difference detected.
+# Compile Architecture "SumadorExponentes" of Entity "SumadorExponentes"
+# Error: COMP96_0015: SumadorExponentes.vhd : (50, 3): ';' expected.
+# Compile failure 1 Errors 0 Warnings  Analysis time :  0.0 [s]
+acom $DSN/src/SumadorExponentes.vhd
+# Compile...
+# File: c:\My_Designs\sumador\sumador\src\SumadorExponentes.vhd
+# Compile Entity "SumadorExponentes"
+# Entity `SumadorExponentes' has been skipped - no difference detected.
+# Compile Architecture "SumadorExponentes" of Entity "SumadorExponentes"
+# Error: COMP96_0077: SumadorExponentes.vhd : (50, 30): Assignment target incompatible with right side. Expected type "std_logic_vector".
+# Compile failure 1 Errors 0 Warnings  Analysis time :  0.0 [s]
+acom $DSN/src/SumadorExponentes.vhd
+# Compile...
+# File: c:\My_Designs\sumador\sumador\src\SumadorExponentes.vhd
+# Compile Entity "SumadorExponentes"
+# Entity `SumadorExponentes' has been skipped - no difference detected.
+# Compile Architecture "SumadorExponentes" of Entity "SumadorExponentes"
+# Compile success 0 Errors 0 Warnings  Analysis time :  0.1 [s]
+acom $DSN/src/SumadorExponentes.vhd
+# Compile...
+# File: c:\My_Designs\sumador\sumador\src\SumadorExponentes.vhd
+# Compile Entity "SumadorExponentes"
+# Entity `SumadorExponentes' has been skipped - no difference detected.
+# Compile Architecture "SumadorExponentes" of Entity "SumadorExponentes"
+# Compile success 0 Errors 0 Warnings  Analysis time :  0.1 [s]
+endsim
+# Simulation has been stopped
+asim -advdataflow  -retry 3  sumadorexponentes sumadorexponentes
+# ELBREAD: Elaboration process.
+# ELBREAD: Elaboration time 0.0 [s].
+# asim: Stack memory: 32MB
+# asim: Retval memory: 32MB
+# KERNEL: Main thread initiated.
+# KERNEL: Kernel process initialization phase.
+# KERNEL: Time resolution set to 1ps.
+# ELAB2: Elaboration final pass...
+# ELAB2: Create instances ...
+# ELAB2: Create instances complete.
+# ELAB2: Elaboration final pass complete - time: 0.0 [s].
+# KERNEL: Kernel process initialization done.
+# Allocation: Simulator allocated 1099 kB (elbread=1070 elab2=4 kernel=25 sdf=0)
+# 01:30 a. m., martes, 9 de noviembre de 2021
+# Simulation has been initialized
+# Selected Top-Level: sumadorexponentes (sumadorexponentes)
+# Signal R not found in design
+run @4us
+# : WARNING: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+# : Time: 0 ps,  Iteration: 0,  Instance: \.
+# : WARNING: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+# : Time: 0 ps,  Iteration: 0,  Instance: \.
+# KERNEL: stopped at time: 4 us
+# KERNEL: Simulation has finished. There are no more test vectors to simulate.
+endsim
+# Simulation has been stopped
+asim -advdataflow  -retry 3  sumadorexponentes sumadorexponentes
+# ELBREAD: Elaboration process.
+# ELBREAD: Elaboration time 0.0 [s].
+# asim: Stack memory: 32MB
+# asim: Retval memory: 32MB
+acom $DSN/src/SumadorExponentes.vhd
+# Compile...
+# File: c:\My_Designs\sumador\sumador\src\SumadorExponentes.vhd
+# Compile Entity "SumadorExponentes"
+# Entity `SumadorExponentes' has been skipped - no difference detected.
+# Compile Architecture "SumadorExponentes" of Entity "SumadorExponentes"
+# Compile success 0 Errors 0 Warnings  Analysis time :  0.0 [s]
+# ELBREAD: Elaboration process.
+# ELBREAD: Elaboration time 0.0 [s].
+# KERNEL: Main thread initiated.
+# KERNEL: Kernel process initialization phase.
+# KERNEL: Time resolution set to 1ps.
+# ELAB2: Elaboration final pass...
+# ELAB2: Create instances ...
+# ELAB2: Create instances complete.
+# ELAB2: Elaboration final pass complete - time: 0.0 [s].
+# KERNEL: Kernel process initialization done.
+# Allocation: Simulator allocated 1099 kB (elbread=1070 elab2=4 kernel=25 sdf=0)
+# 01:30 a. m., martes, 9 de noviembre de 2021
+# Simulation has been initialized
+# Selected Top-Level: sumadorexponentes (sumadorexponentes)
+# Signal R not found in design
+run @4us
+# : WARNING: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+# : Time: 0 ps,  Iteration: 0,  Instance: \.
+# KERNEL: stopped at time: 4 us
+# KERNEL: Simulation has finished. There are no more test vectors to simulate.
+acom $DSN/src/SumadorExponentes.vhd
+# Compile...
+# File: c:\My_Designs\sumador\sumador\src\SumadorExponentes.vhd
+# Compile Entity "SumadorExponentes"
+# Entity `SumadorExponentes' has been skipped - no difference detected.
+# Compile Architecture "SumadorExponentes" of Entity "SumadorExponentes"
+# Compile success 0 Errors 0 Warnings  Analysis time :  0.1 [s]
+endsim
+# Simulation has been stopped
+asim -advdataflow  -retry 3  sumadorexponentes sumadorexponentes
+# ELBREAD: Elaboration process.
+# ELBREAD: Elaboration time 0.0 [s].
+# asim: Stack memory: 32MB
+# asim: Retval memory: 32MB
+# KERNEL: Main thread initiated.
+# KERNEL: Kernel process initialization phase.
+# KERNEL: Time resolution set to 1ps.
+# ELAB2: Elaboration final pass...
+# ELAB2: Create instances ...
+# ELAB2: Create instances complete.
+# ELAB2: Elaboration final pass complete - time: 0.0 [s].
+# KERNEL: Kernel process initialization done.
+# Allocation: Simulator allocated 1099 kB (elbread=1070 elab2=4 kernel=25 sdf=0)
+# 01:31 a. m., martes, 9 de noviembre de 2021
+# Simulation has been initialized
+# Selected Top-Level: sumadorexponentes (sumadorexponentes)
+# Signal R not found in design
+run @4us
+# : WARNING: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+# : Time: 0 ps,  Iteration: 0,  Instance: \.
+# KERNEL: stopped at time: 4 us
+# KERNEL: Simulation has finished. There are no more test vectors to simulate.
+endsim
+# Simulation has been stopped
+asim -advdataflow  -retry 3  sumadorexponentes sumadorexponentes
+# ELBREAD: Elaboration process.
+# ELBREAD: Elaboration time 0.0 [s].
+# asim: Stack memory: 32MB
+# asim: Retval memory: 32MB
+# KERNEL: Main thread initiated.
+# KERNEL: Kernel process initialization phase.
+# KERNEL: Time resolution set to 1ps.
+# ELAB2: Elaboration final pass...
+# ELAB2: Create instances ...
+# ELAB2: Create instances complete.
+# ELAB2: Elaboration final pass complete - time: 0.0 [s].
+# KERNEL: Kernel process initialization done.
+# Allocation: Simulator allocated 1099 kB (elbread=1070 elab2=4 kernel=25 sdf=0)
+# 01:32 a. m., martes, 9 de noviembre de 2021
+# Simulation has been initialized
+# Selected Top-Level: sumadorexponentes (sumadorexponentes)
+# Signal R not found in design
+run @4us
+# KERNEL: stopped at time: 4 us
+# KERNEL: Simulation has finished. There are no more test vectors to simulate.
+acom $DSN/src/SumadorExponentes.vhd
+# Compile...
+# File: c:\My_Designs\sumador\sumador\src\SumadorExponentes.vhd
+# Compile Entity "SumadorExponentes"
+# Entity `SumadorExponentes' has been skipped - no difference detected.
+# Compile Architecture "SumadorExponentes" of Entity "SumadorExponentes"
+# Compile success 0 Errors 0 Warnings  Analysis time :  0.0 [s]
+endsim
+# Simulation has been stopped
+asim -advdataflow  -retry 3  sumadorexponentes sumadorexponentes
+# ELBREAD: Elaboration process.
+# ELBREAD: Elaboration time 0.0 [s].
+# asim: Stack memory: 32MB
+# asim: Retval memory: 32MB
+# KERNEL: Main thread initiated.
+# KERNEL: Kernel process initialization phase.
+# KERNEL: Time resolution set to 1ps.
+# ELAB2: Elaboration final pass...
+# ELAB2: Create instances ...
+# ELAB2: Create instances complete.
+# ELAB2: Elaboration final pass complete - time: 0.0 [s].
+# KERNEL: Kernel process initialization done.
+# Allocation: Simulator allocated 1099 kB (elbread=1070 elab2=4 kernel=25 sdf=0)
+# 01:32 a. m., martes, 9 de noviembre de 2021
+# Simulation has been initialized
+# Selected Top-Level: sumadorexponentes (sumadorexponentes)
+# Signal R not found in design
+run @4us
+# KERNEL: stopped at time: 4 us
+# KERNEL: Simulation has finished. There are no more test vectors to simulate.
+acom $DSN/src/SumadorExponentes.vhd
+# Compile...
+# File: c:\My_Designs\sumador\sumador\src\SumadorExponentes.vhd
+# Compile Entity "SumadorExponentes"
+# Entity `SumadorExponentes' has been skipped - no difference detected.
+# Compile Architecture "SumadorExponentes" of Entity "SumadorExponentes"
+# Compile success 0 Errors 0 Warnings  Analysis time :  0.0 [s]
+acom $DSN/src/SumadorExponentes.vhd
+# Compile...
+# File: c:\My_Designs\sumador\sumador\src\SumadorExponentes.vhd
+# Compile Entity "SumadorExponentes"
+# Entity `SumadorExponentes' has been skipped - no difference detected.
+# Compile Architecture "SumadorExponentes" of Entity "SumadorExponentes"
+# Compile success 0 Errors 0 Warnings  Analysis time :  0.0 [s]
+endsim
+# Simulation has been stopped
+asim -advdataflow  -retry 3  sumadorexponentes sumadorexponentes
+# ELBREAD: Elaboration process.
+# ELBREAD: Elaboration time 0.0 [s].
+# asim: Stack memory: 32MB
+# asim: Retval memory: 32MB
+# KERNEL: Main thread initiated.
+# KERNEL: Kernel process initialization phase.
+# KERNEL: Time resolution set to 1ps.
+# ELAB2: Elaboration final pass...
+# ELAB2: Create instances ...
+# ELAB2: Create instances complete.
+# ELAB2: Elaboration final pass complete - time: 0.0 [s].
+# KERNEL: Kernel process initialization done.
+# Allocation: Simulator allocated 1099 kB (elbread=1070 elab2=4 kernel=25 sdf=0)
+# 01:34 a. m., martes, 9 de noviembre de 2021
+# Simulation has been initialized
+# Selected Top-Level: sumadorexponentes (sumadorexponentes)
+# Signal R not found in design
+run @4us
+# KERNEL: stopped at time: 4 us
+# KERNEL: Simulation has finished. There are no more test vectors to simulate.
+endsim
+# Simulation has been stopped
+asim -advdataflow  -retry 3  sumadorexponentes sumadorexponentes
+# ELBREAD: Elaboration process.
+# ELBREAD: Elaboration time 0.0 [s].
+# asim: Stack memory: 32MB
+# asim: Retval memory: 32MB
+# KERNEL: Main thread initiated.
+# KERNEL: Kernel process initialization phase.
+# KERNEL: Time resolution set to 1ps.
+# ELAB2: Elaboration final pass...
+# ELAB2: Create instances ...
+# ELAB2: Create instances complete.
+# ELAB2: Elaboration final pass complete - time: 0.0 [s].
+# KERNEL: Kernel process initialization done.
+# Allocation: Simulator allocated 1099 kB (elbread=1070 elab2=4 kernel=25 sdf=0)
+# 01:34 a. m., martes, 9 de noviembre de 2021
+# Simulation has been initialized
+# Selected Top-Level: sumadorexponentes (sumadorexponentes)
+# Signal R not found in design
+run @4us
+# KERNEL: stopped at time: 4 us
+# KERNEL: Simulation has finished. There are no more test vectors to simulate.
+endsim
+# Simulation has been stopped
+asim -advdataflow  -retry 3  sumadorexponentes sumadorexponentes
+# ELBREAD: Elaboration process.
+# ELBREAD: Elaboration time 0.0 [s].
+# asim: Stack memory: 32MB
+# asim: Retval memory: 32MB
+# KERNEL: Main thread initiated.
+# KERNEL: Kernel process initialization phase.
+# KERNEL: Time resolution set to 1ps.
+# ELAB2: Elaboration final pass...
+# ELAB2: Create instances ...
+# ELAB2: Create instances complete.
+# ELAB2: Elaboration final pass complete - time: 0.0 [s].
+# KERNEL: Kernel process initialization done.
+# Allocation: Simulator allocated 1099 kB (elbread=1070 elab2=4 kernel=25 sdf=0)
+# 01:35 a. m., martes, 9 de noviembre de 2021
+# Simulation has been initialized
+# Selected Top-Level: sumadorexponentes (sumadorexponentes)
+# Signal R not found in design
+run @4us
+# KERNEL: stopped at time: 4 us
+# KERNEL: Simulation has finished. There are no more test vectors to simulate.
+acom $DSN/src/SumadorExponentes.vhd
+# Compile...
+# File: c:\My_Designs\sumador\sumador\src\SumadorExponentes.vhd
+# Compile Entity "SumadorExponentes"
+# Entity `SumadorExponentes' has been skipped - no difference detected.
+# Compile Architecture "SumadorExponentes" of Entity "SumadorExponentes"
+# Compile success 0 Errors 0 Warnings  Analysis time :  0.1 [s]
+endsim
+# Simulation has been stopped
+asim -advdataflow  -retry 3  sumadorexponentes sumadorexponentes
+# ELBREAD: Elaboration process.
+# ELBREAD: Elaboration time 0.0 [s].
+# asim: Stack memory: 32MB
+# asim: Retval memory: 32MB
+# KERNEL: Main thread initiated.
+# KERNEL: Kernel process initialization phase.
+# KERNEL: Time resolution set to 1ps.
+# ELAB2: Elaboration final pass...
+# ELAB2: Create instances ...
+# ELAB2: Create instances complete.
+# ELAB2: Elaboration final pass complete - time: 0.0 [s].
+# KERNEL: Kernel process initialization done.
+# Allocation: Simulator allocated 1099 kB (elbread=1070 elab2=4 kernel=25 sdf=0)
+# 01:35 a. m., martes, 9 de noviembre de 2021
+# Simulation has been initialized
+# Selected Top-Level: sumadorexponentes (sumadorexponentes)
+# Signal R not found in design
+acom $DSN/src/mul2a1de1bit.bde $DSN/src/mux2a1de1bit.vhd $DSN/src/alu1bit.bde $DSN/src/alu1bitcode.vhd $DSN/src/alu1bitsimbol.bde $DSN/src/sumador4bits.bde $DSN/src/sumador4bitscode.vhd $DSN/src/fulladder1bitcode.vhd $DSN/src/fulladder1bitfub.bde $DSN/src/overflow.vhd $DSN/src/overflow.bde $DSN/src/aux1.bde $DSN/src/multiplicadormatizadividido.vhd $DSN/src/mux2a1-multiplicador.vhd $DSN/src/sumadorexponentes.vhd $DSN/src/unir32bits.vhd $DSN/src/multiplicadordepuntoflotante.bde $DSN/src/mult/producto8bits.vhd $DSN/src/multiplicador/multiplicadormantiza.vhd $DSN/src/multiplicador/divide32bits.vhd
+# Compile...
+# File: .\mul2a1de1bit.vhd
+# Compile Entity "mul2a1de1bit"
+# Entity `mul2a1de1bit' has been skipped - no difference detected.
+# Compile Architecture "mul2a1de1bit" of Entity "mul2a1de1bit"
+# File: c:\My_Designs\sumador\sumador\src\mux2a1de1bit.vhd
+# Compile Entity "mux2a1de1bit"
+# Entity `mux2a1de1bit' has been skipped - no difference detected.
+# Compile Architecture "mux2a1de1bit" of Entity "mux2a1de1bit"
+# File: .\Alu1bit.vhd
+# Compile Entity "Alu1bit"
+# Entity `Alu1bit' has been skipped - no difference detected.
+# Compile Architecture "Alu1bit" of Entity "Alu1bit"
+# File: c:\My_Designs\sumador\sumador\src\Alu1bitcode.vhd
+# Compile Entity "Alu1bit"
+# Entity `Alu1bit' has been skipped - no difference detected.
+# Compile Architecture "Alu1bit" of Entity "Alu1bit"
+# File: .\Alu1BitSimbol.vhd
+# Compile Entity "Alu1BitSimbol"
+# Entity `Alu1BitSimbol' has been skipped - no difference detected.
+# Compile Architecture "Alu1BitSimbol" of Entity "Alu1BitSimbol"
+# File: .\Sumador4Bits.vhd
+# Compile Entity "Sumador4Bits"
+# Entity `Sumador4Bits' has been skipped - no difference detected.
+# Compile Architecture "Sumador4Bits" of Entity "Sumador4Bits"
+# File: c:\My_Designs\sumador\sumador\src\Sumador4BitsCode.vhd
+# Compile Entity "Sumador4Bits"
+# Entity `Sumador4Bits' has been skipped - no difference detected.
+# Compile Architecture "Sumador4Bits" of Entity "Sumador4Bits"
+# File: c:\My_Designs\sumador\sumador\src\FullAdder1BitCode.vhd
+# Compile Entity "FullAdder1BitCode"
+# Entity `FullAdder1BitCode' has been skipped - no difference detected.
+# Compile Architecture "FullAdder1BitCode" of Entity "FullAdder1BitCode"
+# File: .\FullAdder1BitFub.vhd
+# Compile Entity "FullAdder1BitFub"
+# Entity `FullAdder1BitFub' has been skipped - no difference detected.
+# Compile Architecture "FullAdder1BitFub" of Entity "FullAdder1BitFub"
+# File: c:\My_Designs\sumador\sumador\src\Overflow.vhd
+# Compile Entity "OverFlow"
+# Compile Architecture "OverFlow" of Entity "OverFlow"
+# File: .\Overflow.vhd
+# Compile Entity "Overflow"
+# Compile Architecture "Overflow" of Entity "Overflow"
+# File: .\Aux1.vhd
+# Compile Entity "Aux1"
+# Entity `Aux1' has been skipped - no difference detected.
+# Compile Architecture "Aux1" of Entity "Aux1"
+# File: c:\My_Designs\sumador\sumador\src\MultiplicadorMatizaDividido.vhd
+# Compile Entity "MultiplicadorMatizaDividido"
+# Entity `MultiplicadorMatizaDividido' has been skipped - no difference detected.
+# Compile Architecture "MultiplicadorMatizaDividido" of Entity "MultiplicadorMatizaDividido"
+# File: c:\My_Designs\sumador\sumador\src\Mux2A1-Multiplicador.vhd
+# Compile Entity "\Mux2A1-Multiplicador\"
+# Entity `\Mux2A1-Multiplicador\' has been skipped - no difference detected.
+# Compile Architecture "\Mux2A1-Multiplicador\" of Entity "\Mux2A1-Multiplicador\"
+# File: c:\My_Designs\sumador\sumador\src\SumadorExponentes.vhd
+# Compile Entity "SumadorExponentes"
+# Entity `SumadorExponentes' has been skipped - no difference detected.
+# Compile Architecture "SumadorExponentes" of Entity "SumadorExponentes"
+# File: c:\My_Designs\sumador\sumador\src\Unir32Bits.vhd
+# Compile Entity "Unir32Bits"
+# Entity `Unir32Bits' has been skipped - no difference detected.
+# Compile Architecture "Unir32Bits" of Entity "Unir32Bits"
+# File: .\MultiplicadorDePuntoFlotante.vhd
+# Compile Entity "MultiplicadorDePuntoFlotante"
+# Entity `MultiplicadorDePuntoFlotante' has been skipped - no difference detected.
+# Compile Architecture "MultiplicadorDePuntoFlotante" of Entity "MultiplicadorDePuntoFlotante"
+# File: c:\My_Designs\sumador\sumador\src\mult\producto8bits.vhd
+# Compile Entity "producto8bits"
+# Entity `producto8bits' has been skipped - no difference detected.
+# Compile Architecture "producto8bits" of Entity "producto8bits"
+# File: c:\My_Designs\sumador\sumador\src\Multiplicador\MultiplicadorMantiza.vhd
+# Compile Entity "MultiplicadorMantiza"
+# Entity `MultiplicadorMantiza' has been skipped - no difference detected.
+# Compile Architecture "MultiplicadorMantiza" of Entity "MultiplicadorMantiza"
+# File: c:\My_Designs\sumador\sumador\src\Multiplicador\Divide32bits.vhd
+# Compile Entity "Divide32bits"
+# Entity `Divide32bits' has been skipped - no difference detected.
+# Compile Architecture "Divide32bits" of Entity "Divide32bits"
+# Compile success 0 Errors 0 Warnings  Analysis time :  0.7 [s]
+run @4us
+# KERNEL: stopped at time: 4 us
+# KERNEL: Simulation has finished. There are no more test vectors to simulate.
+run 4000 ns
+# KERNEL: stopped at time: 8 us
+# KERNEL: Simulation has finished. There are no more test vectors to simulate.
+acom $DSN/src/mul2a1de1bit.bde $DSN/src/mux2a1de1bit.vhd $DSN/src/alu1bit.bde $DSN/src/alu1bitcode.vhd $DSN/src/alu1bitsimbol.bde $DSN/src/sumador4bits.bde $DSN/src/sumador4bitscode.vhd $DSN/src/fulladder1bitcode.vhd $DSN/src/fulladder1bitfub.bde $DSN/src/overflow.vhd $DSN/src/overflow.bde $DSN/src/aux1.bde $DSN/src/multiplicadormatizadividido.vhd $DSN/src/mux2a1-multiplicador.vhd $DSN/src/sumadorexponentes.vhd $DSN/src/unir32bits.vhd $DSN/src/multiplicadordepuntoflotante.bde $DSN/src/mult/producto8bits.vhd $DSN/src/multiplicador/multiplicadormantiza.vhd $DSN/src/multiplicador/divide32bits.vhd
+# Compile...
+# DRC: Checking file 'c:\My_Designs\sumador\sumador\src\MultiplicadorDePuntoFlotante.bde'.
+# DRC: MultiplicadorDePuntoFlotante.bde - 0 error(s), 0 warning(s)
+# DRC: The results have been written to the log file. Double click on this line to view the log.
+# Generating c:\My_Designs\sumador\sumador\compile\MultiplicadorDePuntoFlotante.vhd from c:\My_Designs\sumador\sumador\src\MultiplicadorDePuntoFlotante.bde ...
+# Generation successful
+# File: .\mul2a1de1bit.vhd
+# Compile Entity "mul2a1de1bit"
+# Entity `mul2a1de1bit' has been skipped - no difference detected.
+# Compile Architecture "mul2a1de1bit" of Entity "mul2a1de1bit"
+# File: c:\My_Designs\sumador\sumador\src\mux2a1de1bit.vhd
+# Compile Entity "mux2a1de1bit"
+# Entity `mux2a1de1bit' has been skipped - no difference detected.
+# Compile Architecture "mux2a1de1bit" of Entity "mux2a1de1bit"
+# File: .\Alu1bit.vhd
+# Compile Entity "Alu1bit"
+# Entity `Alu1bit' has been skipped - no difference detected.
+# Compile Architecture "Alu1bit" of Entity "Alu1bit"
+# File: c:\My_Designs\sumador\sumador\src\Alu1bitcode.vhd
+# Compile Entity "Alu1bit"
+# Entity `Alu1bit' has been skipped - no difference detected.
+# Compile Architecture "Alu1bit" of Entity "Alu1bit"
+# File: .\Alu1BitSimbol.vhd
+# Compile Entity "Alu1BitSimbol"
+# Entity `Alu1BitSimbol' has been skipped - no difference detected.
+# Compile Architecture "Alu1BitSimbol" of Entity "Alu1BitSimbol"
+# File: .\Sumador4Bits.vhd
+# Compile Entity "Sumador4Bits"
+# Entity `Sumador4Bits' has been skipped - no difference detected.
+# Compile Architecture "Sumador4Bits" of Entity "Sumador4Bits"
+# File: c:\My_Designs\sumador\sumador\src\Sumador4BitsCode.vhd
+# Compile Entity "Sumador4Bits"
+# Entity `Sumador4Bits' has been skipped - no difference detected.
+# Compile Architecture "Sumador4Bits" of Entity "Sumador4Bits"
+# File: c:\My_Designs\sumador\sumador\src\FullAdder1BitCode.vhd
+# Compile Entity "FullAdder1BitCode"
+# Entity `FullAdder1BitCode' has been skipped - no difference detected.
+# Compile Architecture "FullAdder1BitCode" of Entity "FullAdder1BitCode"
+# File: .\FullAdder1BitFub.vhd
+# Compile Entity "FullAdder1BitFub"
+# Entity `FullAdder1BitFub' has been skipped - no difference detected.
+# Compile Architecture "FullAdder1BitFub" of Entity "FullAdder1BitFub"
+# File: c:\My_Designs\sumador\sumador\src\Overflow.vhd
+# Compile Entity "OverFlow"
+# Compile Architecture "OverFlow" of Entity "OverFlow"
+# File: .\Overflow.vhd
+# Compile Entity "Overflow"
+# Compile Architecture "Overflow" of Entity "Overflow"
+# File: .\Aux1.vhd
+# Compile Entity "Aux1"
+# Entity `Aux1' has been skipped - no difference detected.
+# Compile Architecture "Aux1" of Entity "Aux1"
+# File: c:\My_Designs\sumador\sumador\src\MultiplicadorMatizaDividido.vhd
+# Compile Entity "MultiplicadorMatizaDividido"
+# Entity `MultiplicadorMatizaDividido' has been skipped - no difference detected.
+# Compile Architecture "MultiplicadorMatizaDividido" of Entity "MultiplicadorMatizaDividido"
+# File: c:\My_Designs\sumador\sumador\src\Mux2A1-Multiplicador.vhd
+# Compile Entity "\Mux2A1-Multiplicador\"
+# Entity `\Mux2A1-Multiplicador\' has been skipped - no difference detected.
+# Compile Architecture "\Mux2A1-Multiplicador\" of Entity "\Mux2A1-Multiplicador\"
+# File: c:\My_Designs\sumador\sumador\src\SumadorExponentes.vhd
+# Compile Entity "SumadorExponentes"
+# Entity `SumadorExponentes' has been skipped - no difference detected.
+# Compile Architecture "SumadorExponentes" of Entity "SumadorExponentes"
+# File: c:\My_Designs\sumador\sumador\src\Unir32Bits.vhd
+# Compile Entity "Unir32Bits"
+# Entity `Unir32Bits' has been skipped - no difference detected.
+# Compile Architecture "Unir32Bits" of Entity "Unir32Bits"
+# File: .\MultiplicadorDePuntoFlotante.vhd
+# Compile Entity "MultiplicadorDePuntoFlotante"
+# Entity `MultiplicadorDePuntoFlotante' has been skipped - no difference detected.
+# Compile Architecture "MultiplicadorDePuntoFlotante" of Entity "MultiplicadorDePuntoFlotante"
+# File: c:\My_Designs\sumador\sumador\src\mult\producto8bits.vhd
+# Compile Entity "producto8bits"
+# Entity `producto8bits' has been skipped - no difference detected.
+# Compile Architecture "producto8bits" of Entity "producto8bits"
+# File: c:\My_Designs\sumador\sumador\src\Multiplicador\MultiplicadorMantiza.vhd
+# Compile Entity "MultiplicadorMantiza"
+# Entity `MultiplicadorMantiza' has been skipped - no difference detected.
+# Compile Architecture "MultiplicadorMantiza" of Entity "MultiplicadorMantiza"
+# File: c:\My_Designs\sumador\sumador\src\Multiplicador\Divide32bits.vhd
+# Compile Entity "Divide32bits"
+# Entity `Divide32bits' has been skipped - no difference detected.
+# Compile Architecture "Divide32bits" of Entity "Divide32bits"
+# Compile success 0 Errors 0 Warnings  Analysis time :  0.8 [s]
+endsim
+# Simulation has been stopped
+asim -advdataflow  -retry 3  sumadorexponentes sumadorexponentes
+# ELBREAD: Elaboration process.
+# ELBREAD: Elaboration time 0.0 [s].
+# asim: Stack memory: 32MB
+# asim: Retval memory: 32MB
+# KERNEL: Main thread initiated.
+# KERNEL: Kernel process initialization phase.
+# KERNEL: Time resolution set to 1ps.
+# ELAB2: Elaboration final pass...
+# ELAB2: Create instances ...
+# ELAB2: Create instances complete.
+# ELAB2: Elaboration final pass complete - time: 0.0 [s].
+# KERNEL: Kernel process initialization done.
+# Allocation: Simulator allocated 1099 kB (elbread=1070 elab2=4 kernel=25 sdf=0)
+# 01:37 a. m., martes, 9 de noviembre de 2021
+# Simulation has been initialized
+# Selected Top-Level: sumadorexponentes (sumadorexponentes)
+# Signal R not found in design
+run @4us
+# KERNEL: stopped at time: 4 us
+# KERNEL: Simulation has finished. There are no more test vectors to simulate.
+endsim
+# Simulation has been stopped

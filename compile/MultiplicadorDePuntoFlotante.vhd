@@ -8,7 +8,7 @@
 ---------------------------------------------------------------------------------------------------
 --
 -- File        : c:\My_Designs\sumador\sumador\compile\MultiplicadorDePuntoFlotante.vhd
--- Generated   : Tue Nov  9 00:53:06 2021
+-- Generated   : Tue Nov  9 01:37:09 2021
 -- From        : c:\My_Designs\sumador\sumador\src\MultiplicadorDePuntoFlotante.bde
 -- By          : Bde2Vhdl ver. 2.6
 --
@@ -84,12 +84,12 @@ signal NET373 : STD_LOGIC;
 signal NET414 : STD_LOGIC;
 signal BUS202 : STD_LOGIC_VECTOR (22 downto 0);
 signal BUS220 : STD_LOGIC_VECTOR (22 downto 0);
-signal BUS289 : STD_LOGIC_VECTOR (7 downto 0);
-signal BUS308 : STD_LOGIC_VECTOR (7 downto 0);
 signal BUS333 : STD_LOGIC_VECTOR (22 downto 0);
 signal BUS352 : STD_LOGIC_VECTOR (22 downto 0);
 signal BUS388 : STD_LOGIC_VECTOR (22 downto 0);
-signal BUS406 : STD_LOGIC_VECTOR (7 downto 0);
+signal BUS829 : STD_LOGIC_VECTOR (7 downto 0);
+signal BUS835 : STD_LOGIC_VECTOR (7 downto 0);
+signal BUS841 : STD_LOGIC_VECTOR (7 downto 0);
 
 begin
 
@@ -114,16 +114,16 @@ U2 : \Mux2A1-Multiplicador\
 
 U3 : sumadorexponentes
   port map(
-       A => BUS289,
-       B => BUS308,
-       Z => BUS406,
+       A => BUS829,
+       B => BUS835,
+       Z => BUS841,
        carry => NET373
   );
 
 U4 : Unir32Bits
   port map(
        Z => R,
-       exponente => BUS406,
+       exponente => BUS841,
        mantiza => BUS388,
        signo => NET414
   );
@@ -131,7 +131,7 @@ U4 : Unir32Bits
 U5 : divide32bits
   port map(
        entrada => A,
-       exponente => BUS289,
+       exponente => BUS829,
        mantiza => BUS220,
        signo => NET235
   );
@@ -139,7 +139,7 @@ U5 : divide32bits
 U6 : divide32bits
   port map(
        entrada => B,
-       exponente => BUS308,
+       exponente => BUS835,
        mantiza => BUS202,
        signo => NET257
   );

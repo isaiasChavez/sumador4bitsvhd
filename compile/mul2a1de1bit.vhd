@@ -7,9 +7,9 @@
 --
 ---------------------------------------------------------------------------------------------------
 --
--- File        : C:\My_Designs\sumador\sumador\compile\mul2a1de1bit.vhd
--- Generated   : Mon Nov  8 22:12:30 2021
--- From        : C:\My_Designs\sumador\sumador\src\mul2a1de1bit.bde
+-- File        : c:\My_Designs\sumador\sumador\compile\mul2a1de1bit.vhd
+-- Generated   : Tue Nov  9 01:17:11 2021
+-- From        : c:\My_Designs\sumador\sumador\src\mul2a1de1bit.bde
 -- By          : Bde2Vhdl ver. 2.6
 --
 ---------------------------------------------------------------------------------------------------

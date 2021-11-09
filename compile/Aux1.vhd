@@ -7,9 +7,9 @@
 --
 ---------------------------------------------------------------------------------------------------
 --
--- File        : C:\My_Designs\sumador\sumador\compile\Aux1.vhd
--- Generated   : Mon Nov  8 22:12:32 2021
--- From        : C:\My_Designs\sumador\sumador\src\Aux1.bde
+-- File        : c:\My_Designs\sumador\sumador\compile\Aux1.vhd
+-- Generated   : Tue Nov  9 01:17:13 2021
+-- From        : c:\My_Designs\sumador\sumador\src\Aux1.bde
 -- By          : Bde2Vhdl ver. 2.6
 --
 ---------------------------------------------------------------------------------------------------

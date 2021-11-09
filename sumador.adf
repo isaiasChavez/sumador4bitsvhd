@@ -27,7 +27,7 @@ UCF=
 
 [HierarchyViewer]
 SortInfo=u
-HierarchyInformation=multiplicadormantiza|multiplicadormantiza|0
+HierarchyInformation=\Mux2A1-Multiplicador\|\Mux2A1-Multiplicador\|0 alu1bit|alu1bit|0 multiplicadordepuntoflotante|multiplicadordepuntoflotante|0 multiplicadormantiza|multiplicadormantiza|0 multiplicadormatizadividido|multiplicadormatizadividido|0 sumadorexponentes|sumadorexponentes|0 unir32bits|unir32bits|0 
 ShowHide=ShowTopLevel
 Selected=
 
@@ -104,6 +104,14 @@ Multiplicador/Divide32bits.vhd=-1
 
 
 
+[LocalVhdlSets]
+ReorderOnFirstRebuild=1
+EnableVHDL87Key=1
+NetlistCompilation=0
+ElaborationAfterCompilation=0
+MaxErrorsKey=100
+CompileWithDebug=1
+OptimizationLevel=2
 [file_out:/mul2a1de1bit.bde]
 /\compile\mul2a1de1bit.vhd=-1
 [file_out:/Alu1bit.bde]

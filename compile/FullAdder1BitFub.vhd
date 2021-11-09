@@ -7,9 +7,9 @@
 --
 ---------------------------------------------------------------------------------------------------
 --
--- File        : C:\My_Designs\sumador\sumador\compile\FullAdder1BitFub.vhd
--- Generated   : Mon Nov  8 22:12:31 2021
--- From        : C:\My_Designs\sumador\sumador\src\FullAdder1BitFub.bde
+-- File        : c:\My_Designs\sumador\sumador\compile\FullAdder1BitFub.vhd
+-- Generated   : Tue Nov  9 01:17:13 2021
+-- From        : c:\My_Designs\sumador\sumador\src\FullAdder1BitFub.bde
 -- By          : Bde2Vhdl ver. 2.6
 --
 ---------------------------------------------------------------------------------------------------
